@@ -1,0 +1,39 @@
+/*-------------------------------------   6 ЧАСТЬ (регистрация и контакты)----------------------------------------------------*/
+
+.content_5_2 ul{
+	display:flex;
+	position:absolute;
+	left:1100px;
+	top:300px;
+	z-index:3;	
+	font-size:18px;
+}
+.content_5_2 ul li{
+	margin-left:10px;
+}
+
+.content_5_3 img{  /*header*/
+	position:absolute;
+	left:1200px;
+	top:25px;
+	z-index:3;
+}
+
+.content_7{
+	position:absolute;
+	left:520px;
+	top:30px;
+	font-size:19px;
+}
+
+.content_6 ul {
+	display:flex;
+	position:absolute;
+	left:500px;
+	top:300px;
+}
+.content_6 ul li {
+margin-left:20px;
+}
+
+

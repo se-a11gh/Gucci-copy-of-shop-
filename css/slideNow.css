@@ -1,0 +1,102 @@
+/*------------------ Слайдер_2 ---------------------------------*/
+.RslideX {
+	width:100%;
+	height:800px;
+	overflow:hidden;
+}
+
+.Rmenu {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+.Rnavig {
+	display:flex;
+	position:absolute;
+	bottom:50px;
+	left:50%;
+	transform:translateX(-50%);
+	z-index:2;
+}
+
+.Rbar {
+	width:30px;
+	height: 8px;
+	border-radius:10px;
+	margin:6px;
+	background-color:gray;
+	opacity:0.7;
+	transition:all .4s ease;
+}
+.Rbar:hover {
+	opacity:1;
+	transform:scale(1.1);
+	background-color:#2F4F4F;
+}
+
+
+input[name="Rr"] {
+	position:absolute;
+	visibility:hidden;
+}
+
+.Rslides{
+	display:flex;
+	position:absolute;
+	width:400%;
+	height: 100%;
+	z-index:1;
+}
+
+.Rsled{
+	width:25%;
+	transition:all .6s ease;
+}
+.Rsled img{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:305px;
+	z-index:1;
+}
+
+.Rs1 p[name="RgColl"] {
+	font-size:25px;
+	position:relative;
+	left:1200px;
+	top:600px;
+	z-index:12;	
+	color:white;
+	border-left:10px solid red;
+	width:550px;
+	height:130px;
+	padding-left:5px;
+}
+.Rs2 p {
+	font-size:20px;
+	position:relative;
+	left:400px;
+	top:100px;
+	z-index:13;	
+	color:red;
+
+}
+
+
+#Rr1:checked ~ .Rs1 {
+	position:relative;
+	left:-5%;
+	z-index:12;	
+}
+
+#Rr2:checked ~ .Rs2 {
+	position:relative;
+	left:-30%;
+	z-index:13;	
+}
+
+
+/*---------------------------------------------------------------*/
+
+

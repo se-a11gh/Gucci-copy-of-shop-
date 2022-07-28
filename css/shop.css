@@ -1,0 +1,552 @@
+/*@import 'pokazModu.css';*/ /*---- НЕДЕЛЯ модЫ --------*/
+@import 'support.css';
+@import 'hedar.css';
+@import 'footer.css';
+
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+@font-face{
+	font-family:"Lugatype";
+	src:url('fonts/Lugatype.otf');
+}
+
+@font-face{
+	font-family:'Intro';
+	src:url('fonts/Intro.otf');
+}
+@font-face{
+	font-family:'beer money';
+	src:url('fonts/beer money.ttf');
+}
+
+body{
+	background-color:#D3D3D3;
+
+}
+
+
+
+/*------------------------------------ 1 ЧАСТЬ / НОВАЯ КОЛЛЕКЦИЯ ---------------------------------------*/
+
+.kontainer_1{
+	display:flex;
+}
+
+.element_1{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:0px;
+
+	width:1533px;
+	height:700px;
+
+	z-index:1;
+}
+
+
+.hedar{  
+	display:flex;
+	position:absolute;
+	left:0px;
+	top:0px;
+
+	width:1525px;
+	height:100px;
+	background-color:black;
+	z-index:10;
+	opacity:0.8;	
+	font-size:18px;
+}
+.hedar:hover{
+		opacity:1;	
+
+}
+
+
+
+
+
+
+
+
+.text_1{ /*gucci*/
+	position:absolute;
+	left:670px;
+	top:10px;
+	z-index:9;
+		cursor:default;
+
+	
+	font-size:50px;
+	font-weight:bold;
+	color:#FFD700;
+}
+
+
+
+
+
+
+
+
+
+.korzina{
+	position:absolute;
+	right:-85px;
+	top:-25px;
+	z-index:10;
+}
+
+
+.back{
+	position:absolute;
+	left:-120px;
+	top:-50px;
+	z-index:10;
+}
+
+
+.blockShop_1{
+	position:absolute;
+	left:50px;
+	top:110px;
+	
+width:1330px;
+height:650px;	
+}
+
+
+
+.MainBlock{
+	display:flex;
+}
+.MainBlock div{
+	
+margin-left:10px;
+border:3px solid;
+	width:700px;
+	height:450px;
+	
+		background-color:white;
+
+}
+
+
+span{
+	font-size:21px;
+	font-family:'Intro';
+}
+
+#buy_1{
+	position:absolute;
+	left:65px;
+	bottom:120px;
+	
+	width:200px;
+	height:50px;
+	color:white;
+	background-color:#00BFFF;
+
+}
+
+.tovar_2 {
+	
+}
+#buy_2{
+	position:absolute;
+	left:400px;
+	bottom:120px;
+	
+	width:200px;
+	height:50px;
+	color:white;
+	background-color:#00BFFF;
+}
+
+
+.tovar_3 {
+	
+}
+#buy_3{
+	position:absolute;
+	left:740px;
+	bottom:120px;
+	
+	width:200px;
+	height:50px;
+	color:white;
+	background-color:#00BFFF;
+}
+
+
+.tovar_4 {
+	
+}
+#buy_4{
+	position:absolute;
+	left:1070px;
+	bottom:120px;
+	
+	width:200px;
+	height:50px;
+	color:white;
+	background-color:#00BFFF;
+}
+
+
+
+
+
+/*----------------------------------------- 2 ЧАСТЬ / ДЛЯ МУЖЧИН ----------------------------------------------------------*/
+.kontainer_2{
+	display:flex;
+}
+
+.element_2{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:750px;
+
+	width:1533px;
+	height:700px;
+
+	z-index:1;
+}
+
+.blockShop_2{
+	position:absolute;
+	left:50px;
+	top:110px;
+		
+width:1300px;
+height:650px;	
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------- 3 ЧАСТЬ / ДЛЯ ЖЕНЩИН ----------------------------------------------------------*/
+
+.kontainer_3{
+	display:flex;
+}
+
+.element_3{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:1500px;
+
+	width:1533px;
+	height:700px;
+
+	z-index:1;
+}
+
+
+.blockShop_3{
+	position:absolute;
+	left:50px;
+	top:200px;
+		
+width:1300px;
+height:650px;	
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------- 4 ЧАСТЬ / АКССЕСУАРЫ  ----------------------------------------------------------*/
+
+
+
+.kontainer_4{
+	display:flex;
+}
+
+.element_4{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:2200px;
+
+	width:1533px;
+	height:700px;
+
+	z-index:1;
+}
+
+.blockShop_4{
+	position:absolute;
+	left:50px;
+	top:110px;
+		background-color:tomato;
+border:1px solid;
+width:1400px;
+height:650px;	
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------- 4 ЧАСТЬ / АКССЕСУАРЫ ----------------------------------------------------------*/
+
+
+
+.kontainer_5{
+	display:flex;
+}
+
+.element_5{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:2900px;
+
+	width:1533px;
+	height:700px;
+
+	z-index:1;
+	border-bottom:1px solid;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------- 4 ЧАСТЬ / ВИТРИНА ----------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+.shop{
+	display:flex;
+}
+
+.shop_el{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:3600px;
+
+	width:99.6%;
+	height:710px;
+	z-index:1;
+}
+/*---------------------------------------------------------------*/
+
+
+
+.text_5{
+	top:-30px;
+}
+
+
+.block_4_1, .block_4_3, .block_4_5, .block_4_7{
+	position:absolute;
+	top:100px;
+	
+	width:350px;
+	height:450px;
+	z-index:1;
+}
+.block_4_2, .block_4_4, .block_4_6, .block_4_8{
+	position:absolute;
+	top:530px;
+	
+	width:348px;
+	height:50px;
+	z-index:1;
+font-size:20px;
+font-weight:bold;
+padding:30px;
+}
+
+.strel img {
+	position:absolute;
+	top:560px;
+	z-index:20;
+	
+}
+
+#st1 {
+		left:160px;
+
+}
+#st2 {
+		left:550px;
+
+}
+#st3 {
+		left:930px;
+
+}
+#st4 {
+		left:1310px;
+
+}
+
+.bGr{
+	position:absolute;
+	left:10px;
+	top:120px;
+	height:500px;
+	width:510px;
+	border-bottom:7px solid green;
+}
+.bred{
+	position:absolute;
+	left:520px;
+	top:120px;
+	height:500px;
+	width:510px;
+	border-bottom:7px solid red;
+}
+.bGr2{
+	position:absolute;
+	left:1030px;
+	top:120px;
+	height:500px;
+	width:460px;
+	border-bottom:7px solid green;
+}
+
+
+
+
+
+.block_4_1{
+	left:20px;
+}
+
+.block_4_2{
+	left:20px;
+}
+.block_4_3{
+	left:390px;
+}
+.block_4_4{
+	left:390px;
+}
+
+.block_4_5{
+	left:760px;
+}
+
+.block_4_6{
+	left:760px;
+}
+
+.block_4_7{
+	left:1130px;
+}
+
+.block_4_8{
+	left:1130px;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*-------------------------------------   6 ЧАСТЬ (регистрация и контакты)----------------------------------------------------*/
+
+.Konteiner_6{
+	display:flex;
+}
+
+.block_6{  /*холст*/
+	position:relative;
+	left:0px;
+	top:5900px;
+
+	width:100%;
+	height:340px;
+	z-index:1;
+	background-color:#708090;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

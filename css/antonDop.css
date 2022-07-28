@@ -1,0 +1,247 @@
+@import 'hedar.css';
+@import 'support.css';
+@import 'footer.css';
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+
+body{
+
+}
+@font-face{
+	font-family:"Lugatype";
+	src:url('../fonts/Lugatype.otf');
+}
+
+@font-face{
+	font-family:'Intro';
+	src:url('../fonts/Intro.otf');
+}
+@font-face{
+	font-family:'beer money';
+	src:url('../fonts/beer money.ttf');
+}
+
+.kontainer_3dop{
+	display:flex;
+
+}
+.element_3dop{
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:linear-gradient(35deg,#F0E68C,#E6E6FA);
+
+	width:99.9%;
+	height:1000px;
+	z-index:1;
+}
+
+
+.text_4dop{
+	position:absolute;
+	left:480px;
+	top:130px;
+	
+	width:600px;
+	height:100px;
+
+	font-size:30px;
+	font-family:'Intro';
+}
+
+
+
+/*------------------ Слайдер_3 Антонио ---------------------------------*/
+.slideX2 {
+	width:50%;
+	height:600px;
+	overflow:hidden;
+}
+
+.menu2 {
+	position:absolute;
+	top:37%;
+	left:19%;
+	transform:translate(-50%, -50%);
+}
+.navigS2 {
+	display:flex;
+	position:absolute;
+	bottom:0px;
+	left:90%;
+	transform:translateX(-50%);
+	z-index:12;
+}
+
+.bar2 {
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	margin:6px;
+	background-color:red;
+	opacity:0.7;
+	transition:all .4s ease;
+}
+.bar2:hover {
+	opacity:1;
+	transform:scale(1.1);
+	background-color:white;
+}
+
+
+input[name="rr"] {
+	position:absolute;
+	visibility:hidden;
+}
+
+.slides2{
+	display:flex;
+	position:absolute;
+	width:400%;
+	height: 100%;
+	z-index:1;
+}
+
+.sled2{
+	width:25%;
+	transition:all .6s ease;
+}
+.sled2 img{
+	width:81%;
+	height:75%;
+	position:absolute;
+	left:295px;
+	top:145px;
+	z-index:1;
+}
+
+#q1:checked ~ .s12 {
+	position:relative;
+	left:-5%;
+	z-index:12;	
+}
+
+#q2:checked ~ .s22 {
+	position:relative;
+	left:-30%;
+	z-index:13;	
+}
+#q3:checked ~ .s32 {
+	position:relative;
+	left:-55%;
+	z-index:14;	
+}
+
+
+
+
+
+
+/*------------------- Сумка Таб ------------------------------------*/
+.block_3_4dop{
+	position:absolute;
+	left:720px;
+	top:310px;
+
+	width:720px;
+	height:350px;
+}
+.panel_1{
+position:absolute;
+	left:130px;
+	top:-30px;
+	width:490px;
+	height:40px;
+
+}
+
+
+.panel_1 a{
+	font-size:19px;
+color:black;
+text-decoration:underline;
+}
+
+.pn_2 {
+	margin-left:200px;
+
+}
+
+.panel_2 div {
+	display:none;
+	height:295px;
+	width:710px;
+}
+
+.panel_2 div:target {
+	display:flex;
+}
+
+.panel_2 div:nth-child(1){
+	padding:5px;
+background-color:#E6E6FA;
+	height:295px;
+	width:710px;
+	font-size:21px;
+
+}
+
+.panel_2 div:nth-child(2){
+	padding:5px;
+	background-color:#E0FFFF;
+	height:295px;
+	width:710px;
+	font-size:21px;
+
+}
+/*-------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+.btn_44 {
+	position:absolute;
+	left:270px;
+	top:350px;
+
+	width:150px;
+	height:35px;
+	border-radius:15px;
+	background-color:#2F4F4F;
+	color:white;
+	font-size:20px;
+	border:0px;
+}
+
+
+/*-------------------------------------   6 ЧАСТЬ (регистрация и контакты)----------------------------------------------------*/
+
+.Konteiner_6{
+	display:flex;
+}
+
+.block_6{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:850px;
+
+	width:100%;
+	height:340px;
+	z-index:1;
+	background-color:#708090;
+}
+
+
