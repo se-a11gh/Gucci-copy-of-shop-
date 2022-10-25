@@ -1,0 +1,307 @@
+@media(max-width:1400px){
+    p[name="content_1_text"]{
+        left:51%;
+        font-size:26px;
+    }
+}
+
+
+
+@media(max-width:1230px){
+    .block_2_1 img{
+        left:40px;
+    }
+    .block_2_2{ /*текст: Гуччо родился  */
+        left:28%; 
+        height:95px;
+    }
+    .block_2_6{ /*текст: В 1938 году Гуччи */
+        left:57%;
+    }
+    .block_2_7 img{
+        left:74%;
+    }
+}
+/*---------------------------------------------------*/
+
+
+
+@media(max-width:1200px){
+    p[name="content_1_text"]{
+        left:45%;
+    }
+}
+
+
+
+
+@media(max-width:1110px){
+    p[name="content_1_text"]{
+        left:39%;
+    }
+    .list_1, .list_2, .list_3, .list_4, .history{
+        font-size:15px;
+    }
+    .Main_list {
+        left:4%;
+    }
+    .text_1{ /*gucci*/
+        left:40%;
+    }
+    .list_1 {
+        left:20%;
+    }
+    .list_2{
+        left:42%;
+    }
+    .list_3{
+        left:60%;
+    }
+    .list_4{
+        left:78%;
+    }
+    .history{
+display: none;        
+    }
+}
+
+
+/*------------------------------------------- ТОЧКА ПЕРЕХОДА -1 --------*/
+
+@media(max-width:1055px){
+.block_2_2{ /*текст: Гуччо родился  */
+        font-size: 15px;
+        width:55%;
+	    height:90px;
+        left:34%;
+
+}
+.block_2_3 img{
+        left:70%;
+        top:360px;
+    }
+p[name="content_1_text"]{
+        left:40%;
+    }
+.block_2_4{  /*текст: Он вернулся   */
+        top:390px;
+        left:43%;
+        width:25%;
+        font-size: 15px;
+        height:130px;
+}
+.block_2_6{ /*текст: В 1938 году Гуччи */
+    top: 690px;
+    left:29%;
+    width:25%;
+    font-size: 15px;
+    height:180px;
+    }
+.block_2_7 img{
+        top: 670px;
+        left:2%;
+}
+
+.block_2_5 img{
+        left:59%;
+        top:770px;
+        width:40%;
+        height:290px;
+    }
+
+.block_2_5_1{ /*текст: Его сыновья Васко  */
+        position:absolute;
+        left:55%;
+        top:1060px;
+        width:40%;
+        height:110px;
+        font-size: 15px;
+    }
+.text_3_1{
+        top:1235px;
+        left:43%;
+    }
+#gagaHis{
+        position: relative;
+        top: -200px;
+        height:400px;
+    }
+p[name="content_1_text"]{
+    top: -400px;
+    left:33%;
+    }
+#markHis{
+    position: relative;
+        top: -400px;
+}
+
+}
+
+
+
+
+/*---------------------------------------------------*/
+@media(max-width:970px){
+    #btn_menu{
+        display: block;
+}
+.Main_list, .btn_2 {
+display:none;
+}
+
+.poiskovik input{
+    left:25%;
+    top:55px;
+    height:35px;
+    width:400px;
+}
+.text_1{ /*gucci*/
+    font-size: 45px;
+    top: 5px;
+}
+}
+
+/*------------------------------------------- ТОЧКА ПЕРЕХОДА -2 --------*/
+
+@media(max-width:890px){
+.block_2_2{ /*текст: Гуччо родился  */
+        width:50%;
+        left:39%;
+        height: 100px;
+    }
+.block_2_4{  /*текст: Он вернулся   */
+    left:40%;
+}
+.block_2_3 img{
+    left:66%;
+}
+.block_2_6{ /*текст: В 1938 году Гуччи */
+    top: 590px;
+    left:30%;
+    width:25%;
+    font-size: 15px;
+    height:180px;
+    }
+.block_2_7 img{
+        top: 570px;
+        left:4%;
+    }
+
+    .text_3_1{
+        top:1635px;
+        left:43%;
+    }
+#gagaHis{
+        top: -100px;
+    }
+p[name="content_1_text"]{
+    top: -250px;
+    left:33%;
+    }
+}
+
+
+
+
+
+/*------------------------------------------- ТОЧКА ПЕРЕХОДА -3 --------*/
+@media(max-width:750px){
+    .block_2_7 img{
+        top: 450px;
+        left:7%;
+        width: 35%;
+    }
+    .block_2_2{ /*текст: Гуччо родился  */
+        top: 150px;
+        width:35%;
+        left:50%;
+        height: 200px;
+        border-bottom: none;
+        border-right: 5px solid red;
+    }
+.block_2_4{  /*текст: Он вернулся   */
+    top: 850px;
+    left:51%;
+    width:35%;
+
+}
+.block_2_3 img{
+    top: 450px;
+    left:48%;
+    width: 45%;
+
+}
+.block_2_6{ /*текст: В 1938 году Гуччи */
+    top: 850px;
+    left:6%;
+    width:35%;
+    font-size: 15px;
+    height:190px;
+    }
+.text_3{
+    left:31%;
+    font-size: 35px;
+
+}
+
+.block_2_1 img{
+	left:7%;
+	top:100px;
+    width: 220px;
+    height: 220px;
+}
+.block_text_2{
+    top:330px;
+	left:12%;
+}
+.block_2_7 img{
+    top: 450px;
+    left:7%;
+    width: 35%;
+}
+
+.block_2_5 img{
+    left:9%;
+    top:1170px;
+    width:82%;
+    height:290px;
+}
+.block_2_5_1{ /*текст: Его сыновья Васко  */
+    left:11%;
+    top:1480px;
+    width:78%;
+    height:100px;
+    font-size: 15px;
+}
+
+
+p[name="content_1_text"]{
+	left:12%;
+	top:15px;
+	border-left:none;
+    border-bottom:5px solid red;
+	width:450px;
+	height:80px;
+	font-size:20px;
+	color:black;
+}
+#markHis{
+    display: none;
+}
+#markHis2{
+	display: block;
+}
+.markHis2_text p{
+	display: block;
+
+}
+}
+
+
+
+
+
+
+
+
+

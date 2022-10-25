@@ -1,0 +1,350 @@
+@media(max-width:1320px){ /*--------------------------------------- 1320 -----------*/
+.poiskovik input{
+    left:75%;
+}
+.text_1{ /*gucci*/
+    left:45%;
+}
+.textSh_Price {
+	left:58%;
+}
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------- 1270 -----------*/
+@media(max-width:1270px){
+        button[name="btn_buy_2"]{
+            left:4%;
+        }
+        button[name="btn_buy_3"]{
+            left:29%;
+        }
+        button[name="btn_buy_4"]{
+            left:55%;
+        }
+        button[name="btn_buy_5"]{
+            left:80%;
+        }
+}
+
+
+
+
+
+/*--------------------------------------------------------------- 1150 -----------*/
+@media(max-width:1150px){
+        button[name="btn_buy_2"]{
+            left:3%;
+        }
+        button[name="btn_buy_3"]{
+            left:28%;
+        }
+        button[name="btn_buy_4"]{
+            left:54%;
+        }
+        button[name="btn_buy_5"]{
+            left:79%;
+        }
+        h2 {
+            left:61%;
+            font-size: 46px;
+        }
+}
+
+
+
+
+
+/*--------------------------------------------------------------- 1100 -----------*/
+@media(max-width:1100px){
+.tovar_block{
+	height:450px;
+}
+
+.tovar_block img{
+	height:270px;
+}
+button {
+	top:370px;
+	width:170px;
+	height:45px;
+}
+button[name="btn_buy_2"]{
+    left:4%;
+}
+button[name="btn_buy_3"]{
+    left:29%;
+}
+button[name="btn_buy_4"]{
+    left:55%;
+}
+button[name="btn_buy_5"]{
+    left:80%;
+}
+span[name="opis"]{
+	left:30%;
+	font-size:23px;
+}
+
+.menFon img{
+    height: 730px;
+}
+.block_6{  /*холст*/
+	top:1650px;
+}
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------- 1000 -----------*/
+@media(max-width:1000px){
+    #btn_menu{
+        display: block;
+    }
+    .btn_2 {
+        display: none;
+    }
+.poiskovik input{
+    left:70%;
+}
+
+
+
+h2 {
+    left:60%;
+    font-size: 40px;
+}
+.tovar_block{
+	height:380px;
+}
+
+.tovar_block img{
+	height:230px;
+}
+button {
+	top:320px;
+	width:145px;
+	height:39px;
+}
+button[name="btn_buy_2"]{
+    left:3.5%;
+}
+button[name="btn_buy_3"]{
+    left:28.5%;
+}
+button[name="btn_buy_4"]{
+    left:54.5%;
+}
+button[name="btn_buy_5"]{
+    left:79.5%;
+}
+span[name="opis"]{
+	left:29%;
+	font-size:21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textSh_Name {
+	top:60px;
+	width:500px;
+	font-size:26px; 
+}
+.textSh_About {
+	top:160px;
+	font-size:18px; 
+}
+.textSh_Price {
+	left:65%;
+    font-size: 28px;
+}
+.btn_group_buy{
+    position: absolute;
+    top: 40px;
+}
+.color_input{
+	top:500px;
+}
+
+
+
+.menuBlock_DOP{
+    display: block;
+    left: 42%;
+}
+.content_7{
+    left: 10%;
+}
+.content_5_3 img{
+    left: 70%;
+}
+.content_5_1, .content_5_2{
+    display: none;
+}
+}
+
+
+
+
+
+/*--------------------------------------------------------------- 825 / Точка Перехода -----------*/
+@media(max-width:825px){
+.text_1{ /*gucci*/
+left: 33%;
+font-size: 35px!important;  
+}
+.poiskovik input{
+    left:62%;
+}
+.fotoShop_1{
+	height:500px;
+}
+.fotoShop_1 img{
+	height:500px;
+}
+.prevBTN, .nextBTN, .prevBTN2, .nextBTN2{
+	top:225px;
+	font-size:40px;
+}
+.nextBTN, .nextBTN2{
+	left:67%;
+}
+.textSh_Name {
+    top:20px;
+
+	width:450px;
+	font-size:20px; 
+    left:25px;
+}
+.textSh_About {
+    top:80px;
+
+	left:25px;
+}
+button[name="to_go"]{
+	position:absolute;
+	left:25px;
+	top:420px;
+    width:150px;
+	height:35px;
+}
+button[name="shop_go"]{
+	top:470px;
+	left:25px;
+    width:150px;
+	height:35px;
+}
+.textSh_Price {
+    top: 480px;
+}
+.color_input{
+	top:400px;
+}
+h3 {  /*хит сезона*/
+	width:100px;
+}
+.element_2{  /*холст*/
+	top:700px;
+}
+.block_6{  /*холст*/
+	top:1470px;
+}
+
+
+.blockShop{
+display: none;
+}
+.blockShop2{
+    display: block;
+}
+.blockShop2 img{
+    filter: blur(5px);
+}
+.blockShop2 img:hover{
+    filter: blur(0px);
+}
+.tovMOD_1, .tovMOD_3, .tovMOD_2, .tovMOD_4{
+    position:absolute;
+	left:2%;
+	top:-270px;
+	width:47%;
+	height:180px;
+	z-index:2;
+}
+.tovMOD_1 {
+	left:2%;
+	top:-270px;
+}
+.tovMOD_3{
+	left:51%;
+	top:-270px;
+}
+.tovMOD_2{
+	left:2%;
+	top:95px;
+}
+.tovMOD_4{
+	left:51%;
+	top:95px;
+}
+span[name="opis"]{
+	position:absolute;
+    top: 50px;
+	left:10%;
+	font-size:35px;
+	font-weight:bold;
+	font-family:'Intro';
+    z-index: 50;
+    color: rgb(102, 112, 121);
+}
+button[name^="b"]{
+    position:absolute;
+    top: 150px;
+	left:28%;
+    z-index: 50;
+    transition: background 1s;
+}
+button[name^="b"]:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.content_5_3 img{
+    width: 180px;
+    height: 160px;
+}
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------- 670 Точка Перехода-2 -----------*/
+@media(max-width:670px){
+    .text_1{ /*gucci*/
+    color: green;
+    }
+
+}

@@ -1,0 +1,228 @@
+*{
+	/* border: 2px solid red; */
+}
+.korzina{
+	position:absolute;
+	right:30px;
+	top:-25px;
+	width:130px;
+	height:100px;
+	background-image:url('../media/korzina.png');
+	background-size:230px 150px;
+	background-repeat:no-repeat;
+	z-index:10;
+}
+.Main{
+	height: 2350px;
+}
+.Block_1_Header{
+	position: relative;
+	left: 0%;
+    width: 100%;
+	height: 100px;
+	z-index: 1;
+
+}
+.Block_flora{
+	position: relative;
+	left: 0%;
+    width: 100%;
+	height: 2000px;
+	z-index: 1;
+}
+#strela{
+	position:relative;
+   left:50%;
+   top:50px;
+   width: 80px;
+   z-index:10;
+   animation-name:strelaDown;
+   animation-duration:1.5s;
+   animation-iteration-count:1121;
+}@keyframes strelaDown {
+	   from{  top:500px;  }
+	   to{ top:580px;  }
+}
+#foto_girl{
+	position:absolute;
+	top:0px;
+	z-index:3;
+}
+.duxi_block_1 p{
+	position:absolute;
+	top:150px;
+	left:30%;
+	width:650px;
+	height:170px;
+	z-index:4;
+	font-family:'Intro';
+	font-size:35px;
+	z-index:5;
+	color:white;
+	text-shadow:3px 3px 6px black;
+	border-bottom:4px solid red;
+	padding:5px;
+	text-align:center;
+}
+
+.duxi_block_2 {
+	position:absolute;
+	top:500px;
+	left:0px;
+	width:100%;
+	height:700px;
+	z-index:1;
+	background-image:linear-gradient(35deg,#DB7093,#FFEFD5);
+}
+
+
+#flow_2{
+	position:fixed;
+	top:160px;
+	left:8%;
+}
+#flow_1{
+	position:fixed;
+	top:150px;
+	left:67%;
+}
+
+#flakon{
+	position:fixed;
+	top:70px;
+	left:14%;
+}
+#duxi_line{
+	position:fixed;
+	top:580px;
+	left:25%;
+	border-bottom: 3px solid #C71585;
+	width:50%;
+	height:1px;
+	z-index:1;
+	box-shadow:5px 5px 4px gray;
+}
+
+
+.duxi_block_3{
+	position:absolute;
+	top:1200px;
+	left: 0%;
+	width:100%;
+	height:850px;
+	background: rgba(250, 250, 210,0.8);
+	z-index:3;
+
+}
+
+p[name='opis_duxi_block_3']{
+	position:relative;
+	top:30px;
+	left: 18%;
+	font-family:"CLEANVEL";
+	font-weight:bold;
+	font-size:30px;
+	width:900px;
+	height:130px;
+	border-bottom:4px solid green;
+	padding:15px;
+	text-align:center;
+}
+
+
+
+
+.fon_flora{
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:850px;
+	z-index:9;
+	background-color:#FFFACD;
+	transition: display 2s;
+}
+
+.flora_krug{
+	position:absolute;
+	top:70px;
+	right:15%;
+	width:280px;
+	height:270px;
+	border:2px solid #FFD700;
+	border-radius:50%;
+	z-index:10;
+	background-color:white;
+}
+.flora_krug p{
+	margin:20px 60px;
+	font-size:19px;
+}
+
+
+
+
+#flora1{
+	position:relative;
+	top:250px;
+	left:3%;
+	z-index:10;
+}
+p[name="dopParfum"]{
+	position:absolute;
+	top:250px;
+	left:38%;
+	font-size:40px;
+	width:400px;
+	height:250px;
+	padding:5px;
+}
+#flora2{
+	position:relative;
+	top:250px;
+	left:36%;
+}
+#duxi_line2, #duxi_line3{
+	position:absolute;
+	top:680px;
+	border-bottom: 3px solid #FF8C00;
+	width:35%;
+	height:1px;
+	box-shadow:2px 2px 1px #FFD700;
+}
+
+#duxi_line2{
+	left:2%;
+}
+#duxi_line3{
+	left:63%;
+}
+
+#btn_flora{
+	position:absolute;
+	top:550px;
+	left:44%;
+	font-size:17px;
+	width:150px;
+	height:50px;
+	padding:5px;
+	border-radius:30px;
+	border:none;
+	cursor:pointer;
+	transition: background 1s;
+	background-color:#FFD700;
+}
+#btn_flora:hover{ 
+	background-color:#FF8C00;
+
+}
+
+
+
+
+
+
+.Block_6_Footer{
+	top: 150px;
+}

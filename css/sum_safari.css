@@ -1,0 +1,111 @@
+p[name="sumkaName"]{
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;
+	font-family:"CLEANVEL";
+}
+.sumkaBlock span{
+	position:absolute;
+	left:27%;
+	top:555px;
+	width:45%;
+	border-bottom:1px solid white;
+	box-shadow:6px 4px 5px gray;
+}
+.sumkaBlock img{
+	position:relative;
+	left:35%;
+	top:-150px;
+}
+
+.krugSumka{
+	position:relative;
+	left:70%;
+	top:0px;
+	width:300px;
+	height:300px;
+	border:2px solid #FF8C00;
+	border-radius:50%;
+	background-color:white;
+}
+.krugSumka p{
+	margin:50px 50px;
+	font-size:19px;
+	font-family:"CLEANVEL";
+	font-weight:bold;
+}
+#sumka2{
+display:none;	
+}
+
+.prev, .next{
+	position:relative;
+	top:-350px;
+	width: 80px;
+	font-size:60px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.prev{
+	display:none;	
+	left:30%;
+}
+.next{
+	left:65%;
+}
+.btn_safari{
+	position:relative;
+	left:40%;
+	top:-150px;
+	border:1px solid white;
+	border-bottom:1px solid;
+	background: rgba(255, 255, 255, 0.5);
+	width:70px;
+	height:20px;
+	padding: 10px 90px;
+	z-index:1;
+	transition: background-color 1s;
+}
+.btn_safari:hover{
+	color:white;
+	background-color:black;
+}
+
+
+
+
+/*--------------------------------------------*/
+#foto_safari_DOP{
+	display: none;
+	position:relative;
+	left:0px;
+	top:0px;
+	height: 450px;
+
+}
+.safari_text{
+	display: none;
+	position: relative;
+	left:15%;
+	top:-400px;
+	width: 600px;
+	z-index: 5;
+	font-size: 45px;
+	text-align: center;
+
+}
+.btn_safari_DOP{
+	position: relative;
+	left:32%;
+	top:30px;
+	border-bottom:1px solid;
+	font-size: 20px;
+	background: rgba(255, 255, 255, 0.5);
+	width:200px;
+	height:35px;
+	cursor: pointer;
+	transition: background 1s;
+}
+.btn_safari_DOP:hover {
+	background: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,184 @@
+   
+@media (max-width: 1350px) { /*------------------------------------- 1350 -----------------------*/
+.flora_krug{
+	right:10%;
+	width:280px;
+	height:270px;
+}
+}
+
+
+/*--------------------------------------------------------------------- 1250 -----------------------*/
+@media (max-width: 1250px) { 
+.duxi_block_1 p{
+    left:27%;
+}
+.flora_krug{
+	right:8%;
+	width:250px;
+	height:240px;
+}
+.flora_krug p{
+	font-size:16px;
+}
+#btn_flora{
+	left:44%;
+	font-size:16px;
+	width:130px;
+	height:40px;
+}
+p[name="dopParfum"]{
+	top:300px;
+	font-size:30px;
+	width:300px;
+	height:250px;
+}
+p[name='opis_duxi_block_3']{
+    left: 14%;
+}
+}
+
+
+/*----------------------------------------------------------------------------------- 1150 -----------------------*/
+@media (max-width: 1150px) { 
+p[name='opis_duxi_block_3']{
+    left: 10%;
+    font-size:26px;
+	width:850px;
+	height:120px;
+}
+}
+
+
+
+/*----------------------------------------------------------------------------------- 1050 -----------------------*/
+@media (max-width: 1050px) { 
+.duxi_block_1 p{
+    left:23%;
+}
+    p[name='opis_duxi_block_3']{
+        left: 8%;
+    font-size:23px;
+	width:800px;
+	height:100px;
+}
+    #flora1{
+     width: 25%;
+     height: 300px;
+     top:350px;
+	left:5%;
+    }
+    #flora2{
+        width: 25%;
+        height: 200px;
+        top:350px;
+	left:42%;
+    }
+    .poiskovik input{
+        left:34%;
+        top:36px;
+        height:25px;
+        width:400px;
+    }
+    .text_1{ /*gucci*/
+        font-size: 30px;
+        top: 5px;
+        left:50%;
+    }
+}
+    
+
+
+
+/*----------------------------------------------------------------------------------- 950 -----------------------*/
+@media (max-width: 950px) { 
+.duxi_block_1 p{
+    left:18%;
+    }
+
+p[name='opis_duxi_block_3']{
+        left: 10%;
+        font-size:20px;
+        width:700px;
+        height:80px;
+    }
+
+.flora_krug{
+    top:130px;
+    right:8%;
+    width:225px;
+    height:220px;
+}
+    p[name="dopParfum"]{
+        left:38%;
+        top:320px;
+        font-size:26px;
+        width:270px;
+        height:250px;
+        padding:5px;
+    }
+}
+
+
+
+
+/*----------------------------------------------------------------------------------- 880 -----------------------*/
+@media (max-width: 880px) { 
+    .flora_krug{
+        right:3%;
+    }
+    p[name="dopParfum"]{
+        top:340px;
+        font-size:23px;
+        width:250px;
+    }
+
+    .poiskovik input{
+        width:300px;
+    }
+    .duxi_block_1 p{
+        left:15%;
+    }
+
+    p[name='opis_duxi_block_3']{
+        left: 12%;
+        font-size:18px;
+        width:600px;
+        height:60px;
+    }
+}
+
+
+
+/*----------------------------------------------------------------------------------- 800 -----------------------*/
+@media (max-width: 800px) { 
+.poiskovik input{
+     width:300px;
+}
+.duxi_block_1 p{
+    left:10%;
+    width:600px;
+    height:120px;
+    font-size:30px;  
+}
+}
+
+
+
+
+/*---------------------------------------------------------------------------------- 700 ------------------------*/
+@media (max-width: 700px) { 
+.poiskovik input{
+    width:300px;
+}
+.duxi_block_1 p{
+    width:500px;
+    height:100px;
+    font-size:25px;     
+}
+}
+
+
+
+
+   

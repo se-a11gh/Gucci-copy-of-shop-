@@ -1,0 +1,176 @@
+
+.poiskovik input{
+	position:absolute;
+	left:75%;
+	top:15px;
+	border-radius:40px;
+	height:25px;
+	width:150px;
+	padding-left:10px;
+}
+
+
+.Main{
+	height: 3000px;
+}
+.Block_1_Header{
+    width: 100%;
+	height: 180px;
+}
+.Block_history{
+    width: 100%;
+	height: 1180px;
+}
+.text_3{	
+	position:absolute;
+	top:110px;
+	left:43%;
+	font-size:40px;
+	font-weight:bold;
+	z-index:5;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.block_2_1 img{
+	position:absolute;
+	left:70px;
+	top:150px;
+	border-radius:50%;
+}
+.block_2_2{ /*текст: Гуччо родился  */
+	left:26%; 
+	top:180px;
+	border-bottom:5px solid red;
+	width:70%;
+	height:80px;
+}
+.block_text_2 {
+	position:absolute;
+	top:400px;
+	left: 8%;
+	font-size:25px;
+}
+.block_text_2 p{
+	font-size:20px;
+}
+/*-----------------------------------------------------------------------------------------*/
+.block_2_3 img{
+	position:absolute;
+	border-radius:20px;
+	left:31%;
+	top:300px;
+	width:250px;
+	height:380px;
+}
+.block_2_4{  /*текст: Он вернулся   */
+	top:550px;
+	left:13%;
+	border-left:5px solid green;
+	width:16%;
+	height:200px;
+}
+/*-----------------------------------------------------------------------------------------*/
+.block_2_6{ /*текст: В 1938 году Гуччи */
+	left:53%;
+	top:300px;
+	border-left:5px solid green;
+	width:15%;
+	height:350px;
+}
+.block_2_7 img{
+	position:absolute;
+	left:70%;
+	top:300px;
+	border-radius:20px;
+	width:25%;
+	height:350px;
+}
+/*-----------------------------------------------------------------------------------------*/
+.block_2_5 img{
+	position:absolute;
+	left:47%;
+	top:750px;
+	border-radius:20px;
+	width:38%;
+	height:310px;
+}
+.block_2_5_1{ /*текст: Его сыновья Васко  */
+	position:absolute;
+	left:20%;
+	top:850px;
+	width:25%;
+	height:200px;
+	border-bottom:5px solid green;
+}
+
+/*------------------------ гуччи сейчас -------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------------------------*/
+.block_2_2, .block_2_4, .block_2_6, .block_2_12, .block_2_5_1{ 
+	position:absolute;
+ 	z-index:1;
+	padding:5px;
+	font-size:18px;
+}
+
+
+/*----- гуччи сейчас -----*/
+.text_3_1, .text_4, .text_5{
+	position:absolute;
+	z-index:5;
+	left:570px;
+	font-size:40px;
+	font-weight:bold;
+}
+.text_3_1{
+	top:1150px;
+	left:43%;
+}
+p[name="content_1_text"]{
+	position:relative;
+	left:53%;
+	top:-200px;
+	border-left:5px solid red;
+	width:700px;
+	height:150px;
+	padding:10px;
+	font-size:30px;
+	color:white;
+}
+
+
+/*------------------- Блок при адаптиве -----------------------*/
+#markHis2{
+	display: none;
+	position:relative;
+	left:35%;
+	top:-100px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.markHis2_text p {
+	display: none;
+	position:relative;
+	left:15%;
+	top:-80px;
+	width: 500px;
+	height: 120px;
+	border-bottom:5px solid green;
+}
+
+
+
+
+
+
+.Block_6_Footer{
+	top: 150px;
+}
+
+
+
+

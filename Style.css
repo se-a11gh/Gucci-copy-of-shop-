@@ -1,0 +1,171 @@
+@import 'css/support.css';
+@import 'css/hedar.css';
+@import 'css/sum_safari.css';
+@import 'css/anton.css';
+@import 'css/slideMain.css'; 
+@import 'css/footer.css';
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	/*border: 1px solid red;*/
+}
+@font-face{
+	font-family:"Lugatype";
+	src:url('fonts/Lugatype.otf');
+}
+@font-face{
+	font-family:"CLEANVEL";
+	src:url('fonts/CLEANVEL.TTF');
+}
+@font-face{
+	font-family:'Intro';
+	src:url('fonts/Intro.otf');
+}
+@font-face{
+	font-family:'beer money';
+	src:url('fonts/beer money.ttf');
+}
+.Main{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 4400px;
+}
+
+
+
+
+
+
+
+
+.Promo_fon{/*------------ Акция PopUp --------------*/
+	display:none;
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:850px;
+	background-color:black;
+	opacity:0.8;
+	z-index:49;
+}
+.Promo_popup{
+	display:none;
+	position:fixed;
+	left:500px;
+	top:200px;
+	width:450px;
+	height:250px;
+	background-color:white;
+	border-radius:10px;
+	z-index:50;
+	padding:20px;
+	font-size:17px;
+	border:1px solid;
+}
+.Promo_popup p{
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+}
+#timer{
+	margin:50px 40px;
+	font-size:35px;
+	font-weight:bold;
+	color:#DC143C;
+	width:500px;
+}
+.Promo_popup a{
+	font-size:20px;
+}
+
+
+
+#strela{
+	position:relative;
+   left:50%;
+   top:-150px;
+   z-index:10;
+   animation-name:strelaDown;
+   animation-duration:2s;
+   animation-iteration-count:1121;
+}@keyframes strelaDown {
+	   from{  top:-150px;  }
+	   to{ top:0px;  }
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+.Block_1_Header{
+	width: 100%;
+	height: 760px;
+	background-image: linear-gradient(180deg, black, white);
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+.Block_2_Safari{
+	position:relative;
+	width: 100%;
+	height: 760px;
+	background-image:linear-gradient(35deg,white,#D3D3D3);
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+.Block_3_Pokaz{
+	position:relative;
+	width: 100%;
+    height:850px;
+}
+.video_Pokaz video{
+	width:100%;
+    height:850px;
+}
+.video_Pokaz p {
+	position:relative;
+	left:20%;
+	top:-600px;
+	height:150px;
+	width: 1000px;
+	text-align:center;
+	color:white;
+	font-size:50px;
+	padding:5px;
+	font-family:'Intro';
+	z-index:3;
+	border-top:5px solid red;
+	border-bottom:5px solid #32CD32;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+.Block_4_Anton{
+	position:relative;
+	width: 100%;
+	height: 760px;
+	background-image:linear-gradient(35deg,#F0E68C,#E6E6FA);
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+.Block_5_FotoLink{
+	position: relative;
+	width: 100%;
+	height: 760px;
+}
+.blokFoto_DOP{
+	display: none;
+	flex-direction: column;
+	position:absolute;
+	left:0px;
+	width:100%;
+	height:710px;
+	z-index:1;
+}
+

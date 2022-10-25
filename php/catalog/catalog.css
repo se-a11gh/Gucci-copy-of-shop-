@@ -1,0 +1,413 @@
+@import '../../css/support.css';
+@import '../../css/hedar.css';
+@import '../../css/footer.css';
+
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+
+	/*
+	border:1px solid red;
+	*/
+}
+@font-face{
+	font-family:"Lugatype";
+	src:url('../../fonts/Lugatype.otf');
+}
+@font-face{
+	font-family:'Intro';
+	src:url('../../fonts/Intro.otf');
+}
+@font-face{
+	font-family:'beer money';
+	src:url('../../fonts/beer money.ttf');
+}
+/*-------------------------------------------------------------------------------------------------------*/
+.korzina{
+	position:absolute;
+	right:30px;
+	top:-25px;
+	width:130px;
+	height:100px;
+	background-image:url('../../media/korzina.png');
+	background-size:230px 150px;
+	background-repeat:no-repeat;
+	z-index:10;
+}
+
+.poiskovik input{
+	position:absolute;
+	left:80%;
+	top:15px;
+	border-radius:40px;
+	height:25px;
+	width:150px;
+	padding-left:10px;
+}
+.kontainer_1{
+	display:flex;
+}
+
+.element_1{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:0px;
+
+	width:100%;
+	height:700px;
+	z-index:1;
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+.prevBTN{
+	display:none;
+}
+.prevBTN, .nextBTN, .prevBTN2, .nextBTN2{
+	position:absolute;
+	left:5%;
+	top:325px;
+	font-size:45px;
+	cursor:pointer;
+}
+.prevBTN{
+	left:5%;	
+}
+.nextBTN{
+	left:70%;
+}
+
+.prevBTN2{
+	display:none;
+	left:5%;
+}
+.nextBTN2{
+	display:none;
+	left:70%;
+}
+/*--------------------------------------------------------------------*/
+
+
+
+
+
+button {
+	position:absolute;
+	top:450px;
+	width:200px;
+	height:50px;
+	border-radius:25px;
+	border:none;
+	box-shadow: 4px 4px 5px gray;
+	background-color:black;
+	cursor:pointer;
+	color: white;
+	transition: background 1s;
+}
+button:hover {
+	background-color: white;
+	color: black;
+}
+
+button[name="to_go"]{
+	position:absolute;
+	left:25px;
+	top:500px;
+}
+button[name="btn_buy_2"]{
+	left:5%;
+}
+button[name="btn_buy_3"]{
+	left:30%;
+}
+button[name="btn_buy_4"]{
+	left:56%;
+}
+button[name="btn_buy_5"]{
+	left:81%;
+}
+button[name="shop_go"]{
+	top:570px;
+	left:25px;
+}
+
+
+
+
+.plat_1, .plat_2{
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	border:none;
+	cursor:pointer;
+}
+.plat_1{
+	background-color:#FFEFD5;
+}
+.plat_2{
+	background-color:#98FB98;
+	margin-left:10px;
+}
+#tovar2, #tovar3, #tovar4{
+	display:none;
+}
+
+
+
+
+
+.fotoShop_1{
+	position:absolute;
+	left:15px;
+	top:10px;
+	width:53%;
+	height:750px;
+	overflow:hidden;
+}
+
+.textShop_1{
+	border-left:1px solid;
+	position:absolute;
+	right:0px;
+	top:10px;
+	width:43%;
+	height:650px;	
+	background: rgba(178, 178, 178, 0.3);
+}
+.textSh_Name {
+	position:absolute;
+	left:5px;
+	top:30px;
+	width:600px;
+	font-size:30px; 
+	font-family:'Intro';
+}
+.textSh_About {
+	position:absolute;
+	left:80px;
+	top:110px;
+	font-size:20px; 
+	font-family:"Lugatype";
+}
+
+.textSh_Price {
+	position:absolute;
+	left:53%;
+	bottom:100px;
+	width:250px;
+	font-size:30px; 
+	font-weight:bold;
+}
+
+/*--------------------------------------------*/
+
+
+h3 {  /*хит сезона*/
+	position:absolute;
+	left:0px;
+	top:80px;
+	z-index:12;
+	width:12%;
+	height:30px;
+	padding-left:20px;
+	background-color:#DC143C;
+	color:white;
+}
+
+
+
+
+
+
+.kontainer_2{
+	display:flex;
+}
+
+.element_2{  /*холст*/
+	position:absolute;
+	left:0px;
+	top:850px;
+	width:99.7%;
+	height:700px;
+	z-index:1;
+}
+/*-------------------*/
+.textShop_men{
+	position:absolute;
+	right:100px;
+	top:10px;
+	width:43%;
+	height:650px;	
+}
+.color_input{
+	display:flex;
+	position:absolute;
+	left:100px;
+	top:450px;
+}
+
+/*--------------*/
+h2 {
+	position:absolute;
+	left:67%;
+	top:70px;
+	z-index:2;
+	color:white;
+	font-size:50px;
+	font-family:'Intro';
+
+}
+.menFon {
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding:5px;
+	box-sizing:border-box;
+	z-index:1;
+	width:100%;
+	text-align:center;
+}
+.blockShop_Main{
+	position:absolute;
+	left:0px;
+	top:70px;
+	width:100%;
+	height:650px;	
+}
+
+.blockShop{
+	position:absolute;
+	left:0px;
+	top:280px;
+	display:flex;
+	justify-content:space-around;
+	width:99.5%;
+	height:530px;
+	z-index:2;
+}
+.blockShop2{
+	display: none;
+	position:absolute;
+	left:0px;
+	top:280px;
+	width:99.5%;
+	height:530px;
+	z-index:2;
+}
+
+.tovar_block{
+	border:1px solid white;
+	border-bottom:4px solid;
+	width:22%;
+	height:530px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+span[name="opis"]{
+	position:relative;
+	left:32%;
+	font-size:25px;
+	font-weight:bold;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+/*-------------------------------------   6 ЧАСТЬ (регистрация и контакты)----------------------------------------------------*/
+
+.Konteiner_6{
+	display:flex;
+}
+
+.block_6{  /*холст*/
+	position:relative;
+	left:0px;
+	top:1700px;
+
+	width:100%;
+	height:340px;
+	z-index:1;
+	background-color:#696969;
+}
+/*-------------------------------------   6 ЧАСТЬ (регистрация и контакты)----------------------------------------------------*/
+.content_5_2 p{
+	position:absolute;
+	left:80%;
+	top:250px;
+	z-index:3;	
+	font-size:18px;
+	width: 150px;
+}
+
+
+.content_5_2 ul{
+	display:flex;
+	position:absolute;
+	left:82%;
+	top:300px;
+	z-index:3;	
+	font-size:18px;
+}
+.content_5_2 ul li{
+	margin-left:10px;
+}
+
+.content_5_3 img{  /*header*/
+	position:absolute;
+	left:80%;
+	top:25px;
+	z-index:3;
+}
+
+.content_7{
+	position:absolute;
+	left:35%;
+	top:30px;
+	font-size:19px;
+}
+
+.content_6 {
+	display:block;
+	position:absolute;
+	left:42%;
+	top:300px;
+	text-align: center;
+}
+
+
+
+.menuBlock_DOP{
+	display: none;
+	position:absolute;
+	top:10px;
+	left: 25%;
+	flex-direction: column;
+	width: 200px;
+	height: 280px;
+	font-size: 19px;
+	text-align: center;
+	z-index: 50;
+}
+.menuBlock_DOP div{
+margin-top: 10px;
+transition: border-bottom 0.5s ;
+}.menuBlock_DOP div:hover {
+	border-bottom: 1px solid white;
+	font-size: 20px;
+	}
+	.menuBlock_DOP p{
+		font-size: 25px;
+		border-bottom: 1px solid white;
+	}

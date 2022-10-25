@@ -1,13 +1,68 @@
+/*------------------------------ боковое меню -------*/
+.nav_menu_Main{
+	display: none;
+	position:absolute;
+	left:0;
+	top:0;
+	height:765px;
+	width:300px;
+	background-image: linear-gradient(120deg, rgb(211, 208, 208),rgb(87, 86, 86));
+	z-index: 50;
+}
+
+#btn_menu_close{
+	position:absolute;
+	left:235px;
+	top:10px;
+	cursor: pointer;
+}
+.list_menu{
+	position:absolute;
+	left:50px;
+	top:150px;
+	height:300px;
+	width:200px;
+	border-left: 2px solid red;
+	padding: 10px;
+}
+#logo_gucci{
+	position: absolute;
+	left:20px;
+	top:-150px;
+}
+.gucci_detali{
+	position: absolute;
+	left:0px;
+	bottom:-220px;
+	width: 200px;
+}
+.list_menu ul a li{
+	color: black;
+	font-size: 20px;
+	margin-top: 18px;
+}
+#btn_menu{
+	display: none;
+	position:absolute;
+	left:30px;
+	top:30px;
+	border: 1px solid;
+	z-index: 49;
+	background: rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+	border: none;
+}
+/*-----------------------------------------------*/
+
+
+
 
 .hedar{  
 	display:flex;
 	position:absolute;
-	left:0px;
-	top:0px;
-
-	width:1525px;
+	width:100%;
 	height:100px;
-	background: rgba(0, 0, 0, 0.1);
+	background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
 	z-index:10;
 	font-size:18px;
 }
@@ -15,9 +70,37 @@
 background: rgba(0, 0, 0, 1);
 }
 
+
+
+/*-----------------------------------------------------------*/
+.poiskovik input{
+	position:absolute;
+	left:75%;
+	top:15px;
+	border-radius:40px;
+	height:25px;
+	width:150px;
+	padding-left:10px;
+}
+/*-----------------------------------------------------------*/
+
+
+#i_Number{
+	position:relative;
+	left:70px;
+	top:70px;
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background-color:red;
+	border:none;
+	color:white;
+}
+
+
 .text_1{ /*gucci*/
 	position:absolute;
-	left:670px;
+	left:50%;
 	top:10px;
 	z-index:9;
 	cursor:default;	
@@ -26,23 +109,26 @@ background: rgba(0, 0, 0, 1);
 	color:#FFD700;
 }
 
-.korzina{
+
+.korzina {
 	position:absolute;
-	right:150px;
-	top:-25px;
+	right:3%;
+	top:-20px;
+	width:130px;
+	height:100px;
+	background-image:url('../media/korzina.png');
+	background-size:230px 150px;
+	background-repeat:no-repeat;
 	z-index:10;
-width:100px;
 }
-
-
 /*------------------ Список -----------------------------*/
 .Main_list {
 	position:absolute;
 	top:-30px;
-	left:110px;
-	width:800px;
+	left:1%;
+	width:80%;
 }
-.list_1, .list_2, .list_3, .list_4{
+.list_1, .list_2, .list_3, .list_4, .history{
 	position:absolute;
 	top:105px;
 	z-index:15;
@@ -52,17 +138,28 @@ width:100px;
 	color:white;
 }
 .list_1 {
-	left:300px;
+	left:25%;
 }
 .list_2{
-	left:500px;
+	left:45%;
 }
 .list_3{
-	left:670px;
+	left:60%;
 }
 .list_4{
-	left:850px;
+	left:75%;
 }
+.history{
+	left: 90%;	
+}
+
+
+
+.history a p{
+color:white;
+width:130px;	
+}
+
 .list_1 p:hover{
 	color:#FFD700;
 }
@@ -72,6 +169,7 @@ width:100px;
 .cont_list1, .cont_list2, .cont_list3, .cont_list4{
 	display:none;
 	position:absolute;
+	font-family:"CLEANVEL";
 	top:25px;
 	left:-200px;
 	width:595px;

@@ -1,0 +1,74 @@
+@media (max-width: 415px) { 
+    .element_1{
+        width: 210%;
+     }
+
+ .element_2{
+    width: 500%;
+ }
+ .hedar{  
+    width: 210%;
+
+ }
+ .nav_menu_Main{
+	height:2265px;
+	width:550px;
+}
+
+#btn_menu_close{
+	left:435px;
+	top:30px;
+}
+.list_menu{
+	left:100px;
+	top:550px;
+	height:720px;
+	width:500px;
+	padding: 10px;
+}
+#logo_gucci{
+	left:120px;
+	top:-250px;
+}
+.gucci_detali{
+	left:150px;
+	bottom:-1420px;
+	width: 200px;
+}
+.list_menu ul a li{
+	font-size: 50px;
+	margin-top: 38px;
+}
+
+#gagaHis{
+    height:820px;
+	width:200%;
+}
+#markHis{
+    height:820px;
+	width:200%;
+}
+
+
+.block_6{  /*холст*/
+	width:200%;
+}
+.text_1{ /*gucci*/
+    display: block;
+	position:absolute;
+	left:40%;
+	top:10px;
+	z-index:9;
+	cursor:default;	
+	font-size:40px;
+	font-weight:bold;
+	color:#FFD700;
+}
+
+}
+    
+    
+    /*----------------------------------------------------------------------------------------------------------*/
+    
+    
+   

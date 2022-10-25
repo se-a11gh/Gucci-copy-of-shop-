@@ -1,39 +1,74 @@
-/*-------------------------------------   6 ЧАСТЬ (регистрация и контакты)----------------------------------------------------*/
-
-.content_5_2 ul{
-	display:flex;
-	position:absolute;
-	left:1100px;
-	top:300px;
+.Block_6_Footer{
+	position: relative;
+	left: 0%;
+	top:250px;
+	width: 100%;
+	height: 360px;
+	background-color:#696969;
+	z-index: 100;
+}
+.cont_52_link {
+	position:relative;
+	left:85%;
+	top:-60px;
 	z-index:3;	
 	font-size:18px;
+	width: 150px;
 }
-.content_5_2 ul li{
+.cont_52_link ul{
+	display:flex;
+	z-index:3;	
+	font-size:18px;
+	margin-left: 5px;
+}
+.cont_52_link ul li{
 	margin-left:10px;
 }
-
-.content_5_3 img{  /*header*/
-	position:absolute;
-	left:1200px;
-	top:25px;
+.cont_53_logo{  /*logo*/
+	position:relative;
+	left:82%;
+	top:-300px;
+	width: 200px;
+	height: 180px;
 	z-index:3;
 }
-
-.content_7{
-	position:absolute;
-	left:520px;
-	top:30px;
+.cont_6_polit {
+	display:block;
+	position:relative;
+	left:40%;
+	top:-260px;
+	text-align: center;
+	width: 400px;
+}
+.cont_7_adres{
+	position:relative;
+	left:35%;
+	top:-530px;
+	width: 300px;
 	font-size:19px;
 }
 
-.content_6 ul {
-	display:flex;
-	position:absolute;
-	left:500px;
-	top:300px;
-}
-.content_6 ul li {
-margin-left:20px;
-}
 
-
+.menuBlock_DOP{
+	display: none;
+	position:relative;
+	top:-350px;
+	left: 25%;
+	flex-direction: column;
+	width: 200px;
+	height: 280px;
+	font-size: 19px;
+	text-align: center;
+	z-index: 50;
+}
+.menuBlock_DOP div{
+margin-top: 10px;
+transition: border-bottom 0.5s ;
+}.menuBlock_DOP div:hover {
+	border-bottom: 1px solid white;
+	font-size: 20px;
+	}
+	.menuBlock_DOP p{
+		font-size: 25px;
+		border-bottom: 1px solid white;
+	}

@@ -1,0 +1,61 @@
+.block_text{ 
+	position:relative;
+	left:50%;
+	top:-680px;
+	width:550px;
+	height:220px;
+	font-size:19px;
+	font-family:'Intro';
+	z-index:2;
+}
+
+.block_text span[name="prezent"]{
+	font-size:22px;
+}
+.block_text p{ 
+	font-size:28px;
+}
+.bl_sumka_anton  {  
+	position:relative;
+	left:53%;
+	top:-650px;
+	width: 500px;
+	z-index: 2;
+}
+
+
+.text_sum_Anton{
+	display: none;
+	position: relative;
+    top: -250px;
+    left:40%;
+    font-size: 35px;
+    font-weight: bold;
+	width: 450px;
+}
+.text_sum_Anton p{
+    font-size: 27px;
+    font-weight: normal;
+	text-indent: 200px;
+	line-height: 60px;
+}
+
+.btnAnt {
+	position:relative;
+	left:19%;
+	top:0px;
+	width:150px;
+	height:35px;
+	border:1px solid white;
+	border-bottom:1px solid;
+	background: rgba(255, 255, 255, 0.5);
+	width:200px;
+	height:40px;
+	z-index:5;
+	transition: background 1s;
+}
+.btnAnt:hover {
+	background: rgba(255, 255, 255, 1);
+}
+
+

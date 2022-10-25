@@ -1,0 +1,112 @@
+@media (max-width: 415px) { 
+ .blokFoto_DOP, .block_6, .element_3, #sumka_DOP,.kont_Pokaz{
+        width:398%;
+    }
+
+    .element_1,  .hedar{
+        width:200%;
+    }
+.slideXX{
+    display: none;
+}
+    .VideoBlock{
+        display: block;
+    }
+    .VideoBlock video{
+        width:600%;
+        height: 600%;
+    }
+
+/*------------------------------ боковое меню -------*/
+.nav_menu_Main{
+	height:3265px;
+	width:950px;
+}
+
+#btn_menu_close{
+	left:835px;
+	top:30px;
+}
+.list_menu{
+	left:200px;
+	top:550px;
+	height:720px;
+	width:500px;
+	padding: 10px;
+}
+#logo_gucci{
+	left:120px;
+	top:-250px;
+}
+.gucci_detali{
+	left:150px;
+	bottom:-1420px;
+	width: 200px;
+}
+.list_menu ul a li{
+	font-size: 50px;
+	margin-top: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #sumka_DOP{   /*-------- блок сумка --------*/
+        top:2500px;
+        height: 1500px;
+    }
+    .safari_text{
+        left:80%;
+        top:2900px;
+        width: 950px;
+        font-size: 85px;
+        text-align: center;
+    }
+
+
+
+    .kont_Pokaz { /*-------- блок показ --------*/
+        top:4000px;
+    }
+   
+
+    .element_3{  /*-------- блок Антон --------*/
+        top:4820px;
+        height:1080px;
+
+      }
+      .block_3_3 img{
+        height:1080px;
+    width: 110%;
+    }
+
+      .blokFoto_DOP{/*-------- блок Витрина --------*/
+        top:5910px;
+    }
+#bl_foto_men, #bl_foto_1, #bl_foto_2, #women{
+    height: 400px;
+}
+    .block_6{  /*футер*/
+        top:7530px;
+    }
+}
+
+    
+    
+    /*----------------------------------------------------------------------------------------------------------*/
+    
+    
+   
