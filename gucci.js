@@ -14,7 +14,7 @@ $('#btn_menu_close').click(function(){
 	$('.nav_menu_Main').fadeOut(1000);
 });
 
-/*-------------------------------------------*/
+
 
 	
 	
@@ -31,32 +31,7 @@ $('.fon_flora').fadeOut(2000);
 });
 
 
-//------------------------------------------------------------------
 	
-
-//--------------------------------------------- Catalog button > / <
-	
-$('.nextBTN').click(function(){
-$('.nextBTN, #tovar1').css('display','none');
-$('.prevBTN, #tovar2').css('display','block');
-});
-	
-$('.prevBTN').click(function(){
-$('.prevBTN, #tovar2').css('display','none');
-$('.nextBTN, #tovar1').css('display','block');
-});
-
-$('.nextBTN2').click(function(){
-$('.nextBTN2, #tovar3').css('display','none');
-$('.prevBTN2, #tovar4').css('display','block');
-});	
-
-$('.prevBTN2').click(function(){
-$('.nextBTN2, #tovar3').css('display','block');
-$('.prevBTN2, #tovar4').css('display','none');
-});
-//-----------------------------------------------
-
 
 
 
@@ -64,73 +39,46 @@ $('.prevBTN2, #tovar4').css('display','none');
 	
 //----------------------------------------------- Sumka-Safari
 $('.prev').click(function(){
-$('.next').css('display','block');
-$('.prev').css('display','none');
-
-$('#sumka1').css('display','block');
-$('#sumka2').css('display','none');
+$('.next, #sumka1').css('display','block');
+$('.prev, #sumka2').css('display','none');
 });
 
 $('.next').click(function(){
-$('.next').css('display','none');
-$('.prev').css('display','block');
-$('#sumka1').css('display','none');
-$('#sumka2').css('display','block');
+$('.next, #sumka1').css('display','none');
+$('.prev, #sumka2').css('display','block');
 });
-//-----------------------------------------------
-
 
 
 
 //----------------------------------------------- Sumka-Anton
 $('.ANTprev').click(function(){
-	$('.ANTnext').css('display','block');
-	$('.ANTprev').css('display','none');
-	
-	$('#sumAnt').css('display','block');
-	$('#sumAnt2').css('display','none');
+	$('.ANTnext, #sumAnt').css('display','block');
+	$('.ANTprev, #sumAnt2').css('display','none');
 	});
 	
 	$('.ANTnext').click(function(){
-	$('.ANTnext').css('display','none');
-	$('.ANTprev').css('display','block');
-	$('#sumAnt').css('display','none');
-	$('#sumAnt2').css('display','block');
+	$('.ANTnext, #sumAnt').css('display','none');
+	$('.ANTprev, #sumAnt2').css('display','block');
 	});
-	//-----------------------------------------------
+
 	
-
-
-
-
-
-
-
-
-
-
-
 
 
 //----------------------------------------------- popUp- support
 $('.btn_2').click(function(){
-	$('.modSupport').fadeIn(1000);
-	$('.fon').fadeIn(1000);
+	$('.modSupport, .fon').fadeIn(1000);
+});
 
 $('#cl22').click(function(){
-	$('.modSupport').fadeOut(1000);	
-	$('.fon').fadeOut(1000);
+	$('.modSupport, .fon').fadeOut(1000);	
 });
-});
-//-----------------------------------------------
-// --------- popUP- PROMO
-$('.Promo_popup').delay(2200).fadeIn(300);
-$('.Promo_fon').delay(2200).fadeIn(300);
+
+
+
+// ------------------------------------------------- popUP- PROMO
+$('.Promo_popup, .Promo_fon').delay(2200).fadeIn(300);
 $('#cl').click(function(){
-	$('.Promo_popup').fadeOut(300);
-	$('.Promo_fon').fadeOut(300);
-	$('.Promo_popup').delay(8000).fadeIn(300);
-	$('.Promo_fon').delay(8000).fadeIn(300);
+	$('.Promo_popup, .Promo_fon').fadeOut(300).delay(8000).fadeIn(300);
 });
 
 
@@ -175,9 +123,9 @@ document.getElementById("timer").innerHTML = "Акция закончилась"
 	  }
 	  slideLine.style.left = -offset + '%';
   });
-  //----
   
-  //-------------------------------------- ��� ������ --> ������� ����
+  
+  //-------------------------------------- scroll Down --> 
   const sobAbc = document.querySelector('.btn_55');
    sobAbc.onclick = function() {
 	  function scrollDown() {
@@ -189,7 +137,6 @@ document.getElementById("timer").innerHTML = "Акция закончилась"
   }
   scrollDown();
   }
-
 
 
  

@@ -1,21 +1,11 @@
 *{
 	/* border: 2px solid red; */
 }
-.korzina{
-	position:absolute;
-	right:30px;
-	top:-25px;
-	width:130px;
-	height:100px;
-	background-image:url('../media/korzina.png');
-	background-size:230px 150px;
-	background-repeat:no-repeat;
-	z-index:10;
-}
-.Main{
+
+.Main_parf{
 	height: 2350px;
 }
-.Block_1_Header{
+.Block_1_Header_parf{
 	position: relative;
 	left: 0%;
     width: 100%;
@@ -224,5 +214,5 @@ p[name="dopParfum"]{
 
 
 .Block_6_Footer{
-	top: 150px;
+	top:0px;
 }

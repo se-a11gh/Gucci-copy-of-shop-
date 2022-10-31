@@ -10,16 +10,13 @@
 <body>
 <style>
 @import '../../css/Adaptiv.css';
-@import 'css_page/Adaptiv_history.css';
 @import 'css_page/mobile_history.css';
-
-
-
+@import 'css_page/Adaptiv_history.css';
 </style>
-<div class="Main">
+<div class="Main_his">
 
-<div class="Block_1_Header">
-    <?php require "pg_hedar.php";?>
+<div class="Block_1_Header_his">
+    <?php require "../pg_hedar.php";?>
 </div>
 
 <div class="Block_history">
@@ -83,7 +80,7 @@ width="99%" height="800" />
 
 
 <div class="Block_6_Footer">
-    <?php require "pg_footer.php";?>
+    <?php require "../pg_footer.php";?>
 </div>
 
 

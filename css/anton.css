@@ -7,8 +7,7 @@
 	font-size:19px;
 	font-family:'Intro';
 	z-index:2;
-}
-
+} 
 .block_text span[name="prezent"]{
 	font-size:22px;
 }
@@ -22,7 +21,6 @@
 	width: 500px;
 	z-index: 2;
 }
-
 
 .text_sum_Anton{
 	display: none;
@@ -53,8 +51,8 @@
 	height:40px;
 	z-index:5;
 	transition: background 1s;
-}
-.btnAnt:hover {
+	cursor: pointer;
+} .btnAnt:hover {
 	background: rgba(255, 255, 255, 1);
 }
 

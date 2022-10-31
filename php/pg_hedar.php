@@ -128,6 +128,6 @@
 <p>Опишите вашу проблему:</p>
 <textarea name="text">
 </textarea><br/>
-<button type="submit">Отправить</button>
+<button id="btn_supp_send" type="submit">Отправить</button>
 </form>
 </div>

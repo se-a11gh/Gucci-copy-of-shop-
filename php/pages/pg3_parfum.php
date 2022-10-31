@@ -12,10 +12,10 @@
 @import '../../css/Adaptiv.css';
 @import 'css_page/Adap_parfum.css';
 </style>
-<div class="Main">
+<div class="Main_parf">
 
-<div class="Block_1_Header">
-<?php require "pg_hedar.php";?>
+<div class="Block_1_Header_parf">
+<?php require "../pg_hedar.php";?>
 </div>
 
 
@@ -93,7 +93,7 @@
 
 
 <div class="Block_6_Footer">
-<?php require "pg_footer.php";?>
+<?php require "../pg_footer.php";?>
 </div>
 
 </div>

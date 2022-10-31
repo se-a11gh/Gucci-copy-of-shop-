@@ -1,4 +1,4 @@
-@media(max-width:1320px){ /*--------------------------------------- 1320 -----------*/
+@media(max-width:1320px){ /*---------------------------------------------------- 1320 -----------*/
 .poiskovik input{
     left:75%;
 }
@@ -8,59 +8,65 @@
 .textSh_Price {
 	left:58%;
 }
-
 }
 
 
 
-
-
-/*--------------------------------------------------------------- 1270 -----------*/
+/*--------------------------------------------------------------------------------- 1270 -----------*/
 @media(max-width:1270px){
-        button[name="btn_buy_2"]{
-            left:4%;
-        }
-        button[name="btn_buy_3"]{
-            left:29%;
-        }
-        button[name="btn_buy_4"]{
-            left:55%;
-        }
-        button[name="btn_buy_5"]{
-            left:80%;
-        }
+button[name="btn_buy_2"]{
+    left:4%;
+}
+button[name="btn_buy_3"]{
+    left:29%;
+}
+button[name="btn_buy_4"]{
+    left:55%;
+}
+button[name="btn_buy_5"]{
+    left:80%;
+}
 }
 
 
 
 
-
-/*--------------------------------------------------------------- 1150 -----------*/
+/*------------------------------------------------------------------------------------ 1150 -----------*/
 @media(max-width:1150px){
-        button[name="btn_buy_2"]{
-            left:3%;
-        }
-        button[name="btn_buy_3"]{
-            left:28%;
-        }
-        button[name="btn_buy_4"]{
-            left:54%;
-        }
-        button[name="btn_buy_5"]{
-            left:79%;
-        }
-        h2 {
-            left:61%;
-            font-size: 46px;
-        }
+button[name="btn_buy_2"]{
+    left:3%;
+}
+button[name="btn_buy_3"]{
+    left:28%;
+}
+button[name="btn_buy_4"]{
+    left:54%;
+}
+button[name="btn_buy_5"]{
+    left:79%;
+}
+h2 {
+    left:61%;
+    font-size: 46px;
+}
 }
 
 
 
 
 
-/*--------------------------------------------------------------- 1100 -----------*/
+/*--------------------------------------------------------------------------------- 1100 -----------*/
 @media(max-width:1100px){
+    .fotoShop_Slider{
+        width:45%;
+    }
+    .fotoShop_Slider2{
+        width:45%;
+    }
+    .nextBTN, .nextBTN2{
+        left:40%;
+    }
+
 .tovar_block{
 	height:450px;
 }
@@ -93,8 +99,8 @@ span[name="opis"]{
 .menFon img{
     height: 730px;
 }
-.block_6{  /*холст*/
-	top:1650px;
+.Block_footer{
+    top:0px;
 }
 }
 
@@ -103,20 +109,17 @@ span[name="opis"]{
 
 
 
-
-/*--------------------------------------------------------------- 1000 -----------*/
+/*------------------------------------------------------------------------------ 1000 -----------*/
 @media(max-width:1000px){
-    #btn_menu{
-        display: block;
-    }
-    .btn_2 {
-        display: none;
-    }
+#btn_menu{
+    top:20px;
+}
+.btn_2 {
+    display: none;
+}
 .poiskovik input{
     left:70%;
 }
-
-
 
 h2 {
     left:60%;
@@ -151,18 +154,6 @@ span[name="opis"]{
 	font-size:21px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .textSh_Name {
 	top:60px;
 	width:500px;
@@ -183,60 +174,33 @@ span[name="opis"]{
 .color_input{
 	top:500px;
 }
-
-
-
-.menuBlock_DOP{
-    display: block;
-    left: 42%;
 }
-.content_7{
-    left: 10%;
-}
-.content_5_3 img{
-    left: 70%;
-}
-.content_5_1, .content_5_2{
-    display: none;
-}
-}
-
 
 
 
 
 /*--------------------------------------------------------------- 825 / Точка Перехода -----------*/
 @media(max-width:825px){
+.fotoShop_1, .fotoShop_2, .fotoShop_Slider2,  .fotoShop_Slider{
+    height:630px;
+}
+
 .text_1{ /*gucci*/
-left: 33%;
-font-size: 35px!important;  
+    left: 33%;
+    font-size: 35px!important;  
 }
 .poiskovik input{
     left:62%;
 }
-.fotoShop_1{
-	height:500px;
-}
-.fotoShop_1 img{
-	height:500px;
-}
-.prevBTN, .nextBTN, .prevBTN2, .nextBTN2{
-	top:225px;
-	font-size:40px;
-}
-.nextBTN, .nextBTN2{
-	left:67%;
-}
+
 .textSh_Name {
     top:20px;
-
 	width:450px;
 	font-size:20px; 
     left:25px;
 }
 .textSh_About {
     top:80px;
-
 	left:25px;
 }
 button[name="to_go"]{
@@ -260,12 +224,6 @@ button[name="shop_go"]{
 }
 h3 {  /*хит сезона*/
 	width:100px;
-}
-.element_2{  /*холст*/
-	top:700px;
-}
-.block_6{  /*холст*/
-	top:1470px;
 }
 
 
@@ -326,25 +284,93 @@ button[name^="b"]:hover{
     background-color: white;
     color: black;
 }
-
-
-
-.content_5_3 img{
-    width: 180px;
-    height: 160px;
-}
 }
 
 
 
-
-
-
-
-/*--------------------------------------------------------------- 670 Точка Перехода-2 -----------*/
-@media(max-width:670px){
-    .text_1{ /*gucci*/
-    color: green;
+/*----------------------------------------------------------------------------------- 750 Точка Перехода-2 -----------*/
+@media(max-width:750px){
+    .fotoShop_Slider, .fotoShop_Slider2{
+        position: absolute;
+        top: 110px;
+        left: 17%;
+        width:67%;
+        height:650px;
+    }
+    .nextBTN, .nextBTN2{
+        left:93%;
+    }
+    .Block_big{
+        height:800px;
+    }
+    .Block_small{
+        height:300px;
+    }
+    .textSh_Name {
+        left:-65%;
+        top:30px;
+        width:550px;
+        font-size:32px; 
     }
 
+    h3 {  /*хит сезона*/
+        left:15%;
+        top:160px;
+    }
+    .color_input{
+        left:-45%;
+        top:713px;
+        width: 75%;
+        background: rgba(17, 16, 16, 0.7);
+        padding-left: 60%;
+    }
+    .textSh_About {
+        left:-55%;
+        top:810px;
+        font-size:20px; 
+        text-align: center;
+        border-bottom:1px solid;
+    }
+    .textSh_Price {
+        left:-23%;
+        top:1150px;
+        width:250px;
+        font-size:45px; 
+    }
+    .btn_group_buy{
+        left:-25%;
+        top: 800px;
+    }
+    button[name="to_go"], button[name="shop_go"]{
+        width:220px;
+        height:50px;
+    }
+    button[name="shop_go"]{
+        top:480px;
+    }
+    .menFon {
+        top:640px;
+    }
+    .blockShop2 {
+        top: 617px;
+    }
+    .Block_footer{
+        top:570px;
+    }
 }
+
+/*---------------------------------------------------------------------------------- 590 ----*/
+@media(max-width:590px){
+    .textSh_Name {
+        left:-60%;
+        width:400px;
+        font-size:23px; 
+    }
+    .color_input{
+        left:-37%;
+    }
+    }
+
+
+
+

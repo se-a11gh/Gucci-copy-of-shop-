@@ -52,11 +52,11 @@
 	cursor: pointer;
 	border: none;
 }
-/*-----------------------------------------------*/
 
 
 
 
+/*------------------------------------------------------------------------------ header ----*/
 .hedar{  
 	display:flex;
 	position:absolute;
@@ -68,33 +68,6 @@
 }
 .hedar:hover{
 background: rgba(0, 0, 0, 1);
-}
-
-
-
-/*-----------------------------------------------------------*/
-.poiskovik input{
-	position:absolute;
-	left:75%;
-	top:15px;
-	border-radius:40px;
-	height:25px;
-	width:150px;
-	padding-left:10px;
-}
-/*-----------------------------------------------------------*/
-
-
-#i_Number{
-	position:relative;
-	left:70px;
-	top:70px;
-	width:25px;
-	height:25px;
-	border-radius:50%;
-	background-color:red;
-	border:none;
-	color:white;
 }
 
 
@@ -110,6 +83,19 @@ background: rgba(0, 0, 0, 1);
 }
 
 
+/*---------------------------------------------------------------------------- search ------*/
+.poiskovik input{
+	position:absolute;
+	left:75%;
+	top:15px;
+	border-radius:40px;
+	height:25px;
+	width:150px;
+	padding-left:10px;
+}
+
+
+
 .korzina {
 	position:absolute;
 	right:3%;
@@ -120,44 +106,36 @@ background: rgba(0, 0, 0, 1);
 	background-size:230px 150px;
 	background-repeat:no-repeat;
 	z-index:10;
-}
-/*------------------ Список -----------------------------*/
-.Main_list {
-	position:absolute;
-	top:-30px;
-	left:1%;
-	width:80%;
-}
-.list_1, .list_2, .list_3, .list_4, .history{
-	position:absolute;
-	top:105px;
-	z-index:15;
-	font-size:17px;
-	height:30px;
-	cursor:default;
+} #i_Number{ 
+	position:relative;
+	left:70px;
+	top:70px;
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background-color:red;
+	border:none;
 	color:white;
 }
-.list_1 {
-	left:25%;
-}
-.list_2{
-	left:45%;
-}
-.list_3{
-	left:60%;
-}
-.list_4{
-	left:75%;
-}
-.history{
-	left: 90%;	
-}
 
 
+/*--------------------------------------------------------------------------- ----*/
+.Main_list {
+	display: flex;
+	justify-content: space-around;
+	font-size: 16px;
+	color: white;
+	position:absolute;
+	top:80px;
+	left:10%;
+	width:80%;
+	height: 30px;
+	cursor: pointer;
+}
 
 .history a p{
 color:white;
-width:130px;	
+width:130px;
 }
 
 .list_1 p:hover{
@@ -167,29 +145,16 @@ width:130px;
 	color:#B22222;
 }
 .cont_list1, .cont_list2, .cont_list3, .cont_list4{
-	display:none;
+	display: none;
 	position:absolute;
 	font-family:"CLEANVEL";
-	top:25px;
-	left:-200px;
-	width:595px;
+	top:20px;
+	left:4%;
+	width:72%;
 	height:300px;
 	border:2px solid #B22222;
 	background: rgba(255, 255, 255, 0.9);
 	z-index:30;
-}
-.cont_list1{
-	border:2px solid #FFD700;
-	left:20px;	
-}
-.cont_list2 {
-	left:-180px;	
-}
-.cont_list3 {
-	left:-350px;	
-}
-.cont_list4 {
-	left:-530px;	
 }
 .cont_list1 ul li a, .cont_list2 ul li a, .cont_list3 ul li a, .cont_list4 ul li a {
 	color:black;
@@ -200,14 +165,10 @@ width:130px;
 	font-size:23px;
 }
 .cont_list1 ul li, .cont_list2 ul li, .cont_list3 ul li, .cont_list4 ul li{
-margin-top:25px;
-margin-left:225px;
-
+margin:30px 150%;
+width: 200px;
 }
 .list_1:hover .cont_list1, .list_2:hover .cont_list2, .list_3:hover .cont_list3, .list_4:hover .cont_list4 {
 	display:flex;
 }
-/*------------------------------------------------------------------------*/
-
-
 

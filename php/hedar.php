@@ -19,20 +19,20 @@
 <div class="Main_list">
 <div class="list_1">
 <p>НОВАЯ КОЛЛЕКЦИЯ</p>
-<div class="cont_list1">
-<ul>
-<li><a href="http://localhost/Portfolio/gucci/php/catalog/men.php" target="_blank">Для мужчин</a> </li>
-<li><a href="http://localhost/Portfolio/gucci/php/catalog/women.php" target="_blank">Для женщин</a> </li>
-<li><a href="http://localhost/Portfolio/gucci/php/catalog/access.php" target="_blank">Аксессуары</a> </li>
-</ul>
-</div>
+    <div class="cont_list1">
+    <ul>
+        <li><a href="http://localhost/Portfolio/gucci/php/catalog/men.php" target="_blank">Для мужчин</a> </li>
+        <li><a href="http://localhost/Portfolio/gucci/php/catalog/women.php" target="_blank">Для женщин</a> </li>
+        <li><a href="http://localhost/Portfolio/gucci/php/catalog/access.php" target="_blank">Аксессуары</a> </li>
+    </ul>
+    </div>
 </div>
 
 <div class="list_2">
 <p>Мужская одежда</p>
 <div class="cont_list2">
 <ul>
-<li><a href="http://localhost/Portfolio/gucci/php/shop/shop.php" target="_blank">Пальто</a> </li>
+<li><a href="http://localhost/Portfolio/gucci/php/shop2/shop.php" target="_blank">Пальто</a> </li>
 <li><a href="http://localhost/Portfolio/gucci/php/shop/shop.php" target="_blank">Штаны</a> </li>
 <li><a href="http://localhost/Portfolio/gucci/php/shop/shop.php" target="_blank">Обувь</a> </li>
 <li><a href="http://localhost/Portfolio/gucci/php/shop/shop.php" target="_blank">Свитера</a> </li>

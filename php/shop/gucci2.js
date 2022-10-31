@@ -9,27 +9,19 @@ $('#btn_menu').click(function(){
 $('#btn_menu_close').click(function(){
 	$('.nav_menu_Main').fadeOut(1000);
 });
-
 /*-------------------------------------------*/
 
+s
 
-
-
-
-
-
-
-
+//--------------------------------------------------------------- zoom 1
 let globalX = 0;
 let globalY = 0;
-
 $(document).on('mousemove', function(e){
 	globalX = e.pageX;
 	globalY = e.pageY;
-});
-
+});  
 $('.zoom_img_item').on('mousemove', function(){
-	let zoom = 6;
+	let zoom = 5;
 	let img = $(this).attr('href');
 	let imgBlock = $(this).find('img');
 	let imgWidth = imgBlock.width();
@@ -40,69 +32,21 @@ $('.zoom_img_item').on('mousemove', function(){
 	cursor.css('height', overlay.height() / zoom + 'px');
 	let cursorWidth = cursor.outerWidth();
 	let cursorHeight = cursor.outerHeight();
-	let posX = globalX - $(this).offset().left - cursorWidth /3;
-	let posY = globalY - $(this).offset().top - cursorHeight /3;
-
+	let posX = globalX - $(this).offset().left - cursorWidth / 2 ;
+	let posY = globalY - $(this).offset().top - cursorHeight / 2;
 cursor.css('left', posX + 'px');
 cursor.css('top', posY + 'px');
 cursor.show();
-
-posX *= zoom;
-posY *= zoom;
-
-
+posX *= zoom / 2;
+posY *= zoom / 2;
 overlay.css('background-image', `url(${img})`);
-overlay.css('background-size', (imgWidth * zoom) + 'px');
+overlay.css('background-size', ((imgWidth * zoom) + 'px') / 2);
 overlay.css('background-position', `-${posX}px -${posY}px`);
 overlay.show();
 });
 $('.zoom_img_item').on('mouseleave', function(){
 	$('.zoom_img_cursor').hide();
-		$('.zoom_img_overlay').hide();
-
-});
-
-
-
-
-
-//����
-$(document).on('mousemove', function(e){
-	globalX2 = e.pageX;
-	globalY2 = e.pageY;
-});
-
-$('.zoom_img_item2').on('mousemove', function(){
-	let zoom2 = 6;
-	let img2 = $(this).attr('href');
-	let imgBlock2 = $(this).find('img');
-	let imgWidth2 = imgBlock2.width();
-	let imgHeight2 = imgBlock2.height();
-	let overlay2 = $('.zoom_img_overlay2');
-	let cursor2 = $('.zoom_img_cursor2');
-	cursor2.css('width', overlay2.width() / zoom2 + 'px');
-	cursor2.css('height', overlay2.height() / zoom2 + 'px');
-	let cursorWidth2 = cursor2.outerWidth();
-	let cursorHeight2 = cursor2.outerHeight();
-	let posX2 = globalX2 - $(this).offset().left - cursorWidth2 /3;
-	let posY2 = globalY2 - $(this).offset().top - cursorHeight2 /3;
-
-cursor2.css('left', posX2 + 'px');
-cursor2.css('top', posY2 + 'px');
-cursor2.show();
-
-posX2 *= zoom2;
-posY2 *= zoom2;
-
-
-overlay2.css('background-image', `url(${img2})`);
-overlay2.css('background-size', (imgWidth2 * zoom2) + 'px');
-overlay2.css('background-position', `-${posX2}px -${posY2}px`);
-overlay2.show();
-});
-$('.zoom_img_item2').on('mouseleave', function(){
-	$('.zoom_img_cursor2').hide();
-	$('.zoom_img_overlay2').hide();
+	$('.zoom_img_overlay').hide();
 });
 
 
@@ -110,14 +54,14 @@ $('.zoom_img_item2').on('mouseleave', function(){
 
 
 
-// ������
+//----------------------------------------------------------- zoom -2
 $(document).on('mousemove', function(e){
 	globalX3 = e.pageX;
 	globalY3 = e.pageY;
 });
 
 $('.zoom_img_item3').on('mousemove', function(){
-	let zoom3 = 6;
+	let zoom3 = 5;
 	let img3 = $(this).attr('href');
 	let imgBlock3 = $(this).find('img');
 	let imgWidth3 = imgBlock3.width();
@@ -130,17 +74,13 @@ $('.zoom_img_item3').on('mousemove', function(){
 	let cursorHeight3 = cursor3.outerHeight();
 	let posX3 = globalX3 - $(this).offset().left - cursorWidth3 /3;
 	let posY3 = globalY3 - $(this).offset().top - cursorHeight3 /3;
-
 cursor3.css('left', posX3 + 'px');
 cursor3.css('top', posY3 + 'px');
 cursor3.show();
-
-posX3 *= zoom3;
-posY3 *= zoom3;
-
-
+posX3 *= zoom3 / 2;
+posY3 *= zoom3 / 2;
 overlay3.css('background-image', `url(${img3})`);
-overlay3.css('background-size', (imgWidth3 * zoom3) + 'px');
+overlay3.css('background-size', ((imgWidth3 * zoom3) + 'px') / 2);
 overlay3.css('background-position', `-${posX3}px -${posY3}px`);
 overlay3.show();
 });
@@ -151,327 +91,62 @@ $('.zoom_img_item3').on('mouseleave', function(){
 
 
 
-
-
-// ����
-$(document).on('mousemove', function(e){
-	globalX4 = e.pageX;
-	globalY4 = e.pageY;
+//----------------------------------------------------------------- Django -----------
+$(".plat_1_2").click(function(){
+	$("#djngo_3, .btn_django_next2").css('display', 'block');
+	$("#djngo_1, #djngo_2, .btn_django_prev, .btn_django_next, .btn_django_prev2").css('display', 'none');
 });
 
-$('.zoom_img_item4').on('mousemove', function(){
-	let zoom4 = 6;
-	let img4 = $(this).attr('href');
-	let imgBlock4 = $(this).find('img');
-	let imgWidth4 = imgBlock4.width();
-	let imgHeight4 = imgBlock4.height();
-	let overlay4 = $('.zoom_img_overlay4');
-	let cursor4 = $('.zoom_img_cursor4');
-	cursor4.css('width', overlay4.width() / zoom4 + 'px');
-	cursor4.css('height', overlay4.height() / zoom4 + 'px');
-	let cursorWidth4 = cursor4.outerWidth();
-	let cursorHeight4 = cursor4.outerHeight();
-	let posX4 = globalX4 - $(this).offset().left - cursorWidth4 /3;
-	let posY4 = globalY4 - $(this).offset().top - cursorHeight4 /3;
-
-cursor4.css('left', posX4 + 'px');
-cursor4.css('top', posY4 + 'px');
-cursor4.show();
-
-posX4 *= zoom4;
-posY4 *= zoom4;
-
-
-overlay4.css('background-image', `url(${img4})`);
-overlay4.css('background-size', (imgWidth4 * zoom4) + 'px');
-overlay4.css('background-position', `-${posX4}px -${posY4}px`);
-overlay4.show();
-});
-$('.zoom_img_item4').on('mouseleave', function(){
-	$('.zoom_img_cursor4').hide();
-	$('.zoom_img_overlay4').hide();
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const boxx1 = document.querySelector(".plat_1_2");
-boxx1.addEventListener("click", function(event){
-const king1 = document.querySelector("#djngo_3");
-
-const king2 = document.querySelector("#djngo_1"); 
-const king3 = document.querySelector("#djngo_2");
-const king4 = document.querySelector(".btn_django_prev"); 
-const king5 = document.querySelector(".btn_django_next"); 
-const king6 = document.querySelector(".btn_django_prev2"); 
-const king7 = document.querySelector(".btn_django_next2"); 
-
-king1.style.display = "block"; // �����
-king2.style.display = "none"; // �����
-king3.style.display = "none"; // �����
-king4.style.display = "none"; // �����
-king5.style.display = "none"; // �����
-king6.style.display = "none"; // �����
-king7.style.display = "block"; // �����
-
-});
-
-
-
-const boxx2 = document.querySelector(".plat_1_1");
-boxx2.addEventListener("click", function(event){
-const king1 = document.querySelector("#djngo_3");
-
-const king2 = document.querySelector("#djngo_1"); 
-const king3 = document.querySelector("#djngo_2");
-const king4 = document.querySelector(".btn_django_prev"); 
-const king5 = document.querySelector(".btn_django_next"); 
-const king6 = document.querySelector(".btn_django_prev2"); 
-const king7 = document.querySelector(".btn_django_next2"); 
-
-king1.style.display = "none"; // �����
-king2.style.display = "block"; // �����
-king3.style.display = "block"; // �����
-king4.style.display = "none"; // prev
-king5.style.display = "block"; // �����
-king6.style.display = "none"; // prev2
-king7.style.display = "none"; // �����
-
+$(".plat_1_1").click(function(){
+	$("#djngo_3, .btn_django_next2, .btn_django_prev, .btn_django_prev2").css('display', 'none');
+	$("#djngo_1, #djngo_2, .btn_django_next").css('display', 'block');
 });
 //----------------------------------------------------------------------------
 
 
 
 //-------------------------------- huan --------------------------------------------
-const boxx3 = document.querySelector(".plat_2_2");
-boxx3.addEventListener("click", function(event){
-const king1 = document.querySelector("#huan_3");
-
-const king2 = document.querySelector("#huan_1"); 
-const king3 = document.querySelector("#huan_2");
-const king4 = document.querySelector(".btn_huan_prev"); 
-const king5 = document.querySelector(".btn_huan_next"); 
-const king6 = document.querySelector(".btn_huan_prev2"); 
-const king7 = document.querySelector(".btn_huan_next2"); 
-
-king1.style.display = "block"; // �����
-king2.style.display = "none"; // �����
-king3.style.display = "none"; // �����
-king4.style.display = "none"; // �����
-king5.style.display = "none"; // �����
-king6.style.display = "none"; // �����
-king7.style.display = "block"; // �����
-
+$(".plat_2_2").click(function(){
+	$("#huan_3, .btn_huan_next2").css('display', 'block');
+	$("#huan_1, #huan_2, .btn_huan_prev, .btn_huan_next, .btn_huan_prev2").css('display', 'none');
 });
 
-
-
-const boxx4 = document.querySelector(".plat_2_1");
-boxx4.addEventListener("click", function(event){
-const king1 = document.querySelector("#huan_3");
-
-const king2 = document.querySelector("#huan_1"); 
-const king3 = document.querySelector("#huan_2");
-const king4 = document.querySelector(".btn_huan_prev"); 
-const king5 = document.querySelector(".btn_huan_next"); 
-const king6 = document.querySelector(".btn_huan_prev2"); 
-const king7 = document.querySelector(".btn_huan_next2"); 
-
-king1.style.display = "none"; // �����
-king2.style.display = "block"; // �����
-king3.style.display = "block"; // �����
-king4.style.display = "none"; // prev
-king5.style.display = "block"; // �����
-king6.style.display = "none"; // prev2
-king7.style.display = "none"; // �����
-
+$(".plat_2_1").click(function(){
+	$("#huan_3, .btn_huan_next2, .btn_huan_prev, .btn_huan_prev2").css('display', 'none');
+	$("#huan_1, #huan_2, .btn_huan_next").css('display', 'block');
 });
-
-
-
 //----------------------------------------------------------------------------
 
 
 
 //---------------------------------- markus ------------------------------------------
-const boxx5 = document.querySelector(".plat_3_2");
-boxx5.addEventListener("click", function(event){
-const king1 = document.querySelector("#markus_3");
-
-const king2 = document.querySelector("#markus_1"); 
-const king3 = document.querySelector("#markus_2");
-const king4 = document.querySelector(".btn_markus_prev"); 
-const king5 = document.querySelector(".btn_markus_next"); 
-const king6 = document.querySelector(".btn_markus_prev2"); 
-const king7 = document.querySelector(".btn_markus_next2"); 
-
-king1.style.display = "block"; // �����
-king2.style.display = "none"; // �����
-king3.style.display = "none"; // �����
-king4.style.display = "none"; // �����
-king5.style.display = "none"; // �����
-king6.style.display = "none"; // �����
-king7.style.display = "block"; // �����
-
+$(".plat_3_2").click(function(){
+	$("#markus_3, .btn_markus_next2").css('display', 'block');
+	$("#markus_1, #markus_2, .btn_markus_prev, .btn_markus_next, .btn_markus_prev2").css('display', 'none');
 });
 
-
-
-const boxx6 = document.querySelector(".plat_3_1");
-boxx6.addEventListener("click", function(event){
-const king1 = document.querySelector("#markus_3");
-
-const king2 = document.querySelector("#markus_1"); 
-const king3 = document.querySelector("#markus_2");
-const king4 = document.querySelector(".btn_markus_prev"); 
-const king5 = document.querySelector(".btn_markus_next"); 
-const king6 = document.querySelector(".btn_markus_prev2"); 
-const king7 = document.querySelector(".btn_markus_next2"); 
-
-king1.style.display = "none"; // �����
-king2.style.display = "block"; // �����
-king3.style.display = "block"; // �����
-king4.style.display = "none"; // prev
-king5.style.display = "block"; // �����
-king6.style.display = "none"; // prev2
-king7.style.display = "none"; // �����
-
+$(".plat_3_1").click(function(){
+	$("#markus_3, .btn_markus_next2, .btn_markus_prev, .btn_markus_prev2").css('display', 'none');
+	$("#markus_1, #markus_2, .btn_markus_next").css('display', 'block');
 });
 //----------------------------------------------------------------------------
 
 
 
 //---------------------------------- leon ------------------------------------------
-const boxx7 = document.querySelector(".plat_4_2");
-boxx7.addEventListener("click", function(event){
-const king1 = document.querySelector("#leon_3");
-
-const king2 = document.querySelector("#leon_1"); 
-const king3 = document.querySelector("#leon_2");
-const king4 = document.querySelector(".btn_leon_prev"); 
-const king5 = document.querySelector(".btn_leon_next"); 
-const king6 = document.querySelector(".btn_leon_prev2"); 
-const king7 = document.querySelector(".btn_leon_next2"); 
-
-king1.style.display = "block"; // �����
-king2.style.display = "none"; // �����
-king3.style.display = "none"; // �����
-king4.style.display = "none"; // �����
-king5.style.display = "none"; // �����
-king6.style.display = "none"; // �����
-king7.style.display = "block"; // �����
-
+$(".plat_4_2").click(function(){
+	$("#leon_3, .btn_leon_next2").css('display', 'block');
+	$("#leon_1, #leon_2, .btn_leon_prev, .btn_leon_next, .btn_leon_prev2").css('display', 'none');
 });
 
-
-
-const boxx8 = document.querySelector(".plat_4_1");
-boxx8.addEventListener("click", function(event){
-const king1 = document.querySelector("#leon_3");
-
-const king2 = document.querySelector("#leon_1"); 
-const king3 = document.querySelector("#leon_2");
-const king4 = document.querySelector(".btn_leon_prev"); 
-const king5 = document.querySelector(".btn_leon_next"); 
-const king6 = document.querySelector(".btn_leon_prev2"); 
-const king7 = document.querySelector(".btn_leon_next2"); 
-
-king1.style.display = "none"; // �����
-king2.style.display = "block"; // �����
-king3.style.display = "block"; // �����
-king4.style.display = "none"; // prev
-king5.style.display = "block"; // �����
-king6.style.display = "none"; // prev2
-king7.style.display = "none"; // �����
-
+$(".plat_4_1").click(function(){
+	$("#leon_3, .btn_leon_next2, .btn_leon_prev, .btn_leon_prev2").css('display', 'none');
+	$("#leon_1, #leon_2, .btn_leon_next").css('display', 'block');
 });
 //----------------------------------------------------------------------------
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/*
-	
-$('.str_1').click(function(){
-		$('#foto1').hide(100);
-		
-$('.str_2').click(function(){
-	$('#foto1').show(100);		
-	});	
-});
-
-	
-$('.btn_1').click(function(){
-	$('.modalPok').show(100);
-	$('.fon').show(100);
-
-		
-$('.pokText2').click(function(){
-	$('.modalPok').hide(100);
-	$('.fon').hide(100);	
-	});
-});
-*/
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-	
-/*------- ����� PopUp -------------------
-
+/*-------------------------------------------- PopUp --------
 $('.Promo_popup').delay(2200).fadeIn(300);
 $('.Promo_fon').delay(2200).fadeIn(300);
 $('#cl').click(function(){
@@ -480,253 +155,118 @@ $('#cl').click(function(){
 	$('.Promo_popup').delay(7000).fadeIn(300);
 	$('.Promo_fon').delay(7000).fadeIn(300);
 });
-	
 ---------------------------------------*/
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 
-
-
-
-//--------------------------------------------- Women
-$('.prevWomen').click(function(){
-$('.nextWomen').css('display','block');
-$('.prevWomen').css('display','none');
-$('#tovWomen2').css('display','none');
-$('#tovWomen1').css('display','block');
-});
-
-$('.nextWomen').click(function(){
-$('.nextWomen').css('display','none');
-$('.prevWomen').css('display','block');
-$('#tovWomen2').css('display','block');
-$('#tovWomen1').css('display','none');
-});	
-
-
-
-
-
-$('.prevWomen2').click(function(){
-$('.nextWomen2').css('display','block');
-$('.prevWomen2').css('display','none');
-$('#tovWomen4').css('display','none');
-$('#tovWomen3').css('display','block');
-});
-
-$('.nextWomen2').click(function(){
-$('.nextWomen2').css('display','none');
-$('.prevWomen2').css('display','block');
-$('#tovWomen4').css('display','block');
-$('#tovWomen3').css('display','none');
-});	
-//------------------------------------------------
-	
-	
-	
-	
-	
-	
-//---------------------------------------------------------- Shop / djngo
-
-//----------------------------------------------- tovar-1
+//-------------------------------------------------------------------- djngo
 $('.btn_django_next').click(function(){
-$('.btn_django_next').css('display','none');
-$('.btn_django_prev').css('display','block');
-$('#djngo_1').css('display','none');
-$('#djngo_2').css('display','block');
+$('.btn_django_next, #djngo_1').css('display','none');
+$('.btn_django_prev, #djngo_2').css('display','block');
 });
 	
 $('.btn_django_prev').click(function(){
-$('.btn_django_prev').css('display','none');
-$('.btn_django_next').css('display','block');
-$('#djngo_1').css('display','block');
-$('#djngo_2').css('display','none');
+$('.btn_django_prev, #djngo_2').css('display','none');
+$('.btn_django_next, #djngo_1').css('display','block');
 });	
-//----------------------------------------------------
-	
-	
-//----------------------------------------------- tovar-2
+//-------------------------------------------
 $('.btn_django_next2').click(function(){
-$('.btn_django_next2').css('display','none');
-$('.btn_django_prev2').css('display','block');
-$('#djngo_3').css('display','none');
-$('#djngo_4').css('display','block');
+$('.btn_django_next2, #djngo_3').css('display','none');
+$('.btn_django_prev2, #djngo_4').css('display','block');
 });
 	
 $('.btn_django_prev2').click(function(){
-$('.btn_django_prev2').css('display','none');
-$('.btn_django_next2').css('display','block');
-$('#djngo_3').css('display','block');
-$('#djngo_4').css('display','none');
+$('.btn_django_prev2, #djngo_4').css('display','none');
+$('.btn_django_next2, #djngo_3').css('display','block');
 });	
-//----------------------------------------------------
-//-----------------------------------------------------------------------
-	
-	
-	
-//---------------------------------------------------------- Shop / huan
+//-------------------------------------------------------------------------
 
-//----------------------------------------------- tovar-1
+
+
+//---------------------------------------------------------------------- huan
 $('.btn_huan_next').click(function(){
-$('.btn_huan_next').css('display','none');
-$('.btn_huan_prev').css('display','block');
-$('#huan_1').css('display','none');
-$('#huan_2').css('display','block');
+$('.btn_huan_next, #huan_1').css('display','none');
+$('.btn_huan_prev, #huan_2').css('display','block');
 });
 	
 $('.btn_huan_prev').click(function(){
-$('.btn_huan_prev').css('display','none');
-$('.btn_huan_next').css('display','block');
-$('#huan_1').css('display','block');
-$('#huan_2').css('display','none');
+$('.btn_huan_prev, #huan_2').css('display','none');
+$('.btn_huan_next, #huan_1').css('display','block');
 });	
 //----------------------------------------------------
-	
-//----------------------------------------------- tovar-2
 $('.btn_huan_next2').click(function(){
-$('.btn_huan_next2').css('display','none');
-$('.btn_huan_prev2').css('display','block');
-$('#huan_3').css('display','none');
-$('#huan_4').css('display','block');
+$('.btn_huan_next2, #huan_3').css('display','none');
+$('.btn_huan_prev2, #huan_4').css('display','block');
 });
 	
 $('.btn_huan_prev2').click(function(){
-$('.btn_huan_prev2').css('display','none');
-$('.btn_huan_next2').css('display','block');
-$('#huan_3').css('display','block');
-$('#huan_4').css('display','none');
+$('.btn_huan_prev2, #huan_4').css('display','none');
+$('.btn_huan_next2, #huan_3').css('display','block');
 });	
-//----------------------------------------------------
-	
-//-----------------------------------------------------------------------
-	
-	
-//---------------------------------------------------------- Shop / markus
+//--------------------------------------------------------------------------
 
-//----------------------------------------------- tovar-1
+	
+	
+
+//---------------------------------------------------------------- markus
 $('.btn_markus_next').click(function(){
-$('.btn_markus_next').css('display','none');
-$('.btn_markus_prev').css('display','block');
-$('#markus_1').css('display','none');
-$('#markus_2').css('display','block');
+$('.btn_markus_next, #markus_1').css('display','none');
+$('.btn_markus_prev, #markus_2').css('display','block');
 });
 	
 $('.btn_markus_prev').click(function(){
-$('.btn_markus_prev').css('display','none');
-$('.btn_markus_next').css('display','block');
-$('#markus_1').css('display','block');
-$('#markus_2').css('display','none');
+$('.btn_markus_prev, #markus_2').css('display','none');
+$('.btn_markus_next, #markus_1').css('display','block');
 });	
 //----------------------------------------------------
-//----------------------------------------------- tovar-2
 $('.btn_markus_next2').click(function(){
-$('.btn_markus_next2').css('display','none');
-$('.btn_markus_prev2').css('display','block');
-$('#markus_3').css('display','none');
-$('#markus_4').css('display','block');
+$('.btn_markus_next2, #markus_3').css('display','none');
+$('.btn_markus_prev2, #markus_4').css('display','block');
 });
 	
 $('.btn_markus_prev2').click(function(){
-$('.btn_markus_prev2').css('display','none');
-$('.btn_markus_next2').css('display','block');
-$('#markus_3').css('display','block');
-$('#markus_4').css('display','none');
+$('.btn_markus_prev2, #markus_4').css('display','none');
+$('.btn_markus_next2, #markus_3').css('display','block');
 });	
-//----------------------------------------------------
+//--------------------------------------------------------------------
 	
-	
-//-----------------------------------------------------------------------
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-//---------------------------------------------------------- Shop / leon
 
-//----------------------------------------------- tovar-1
+
+
+//------------------------------------------------------------ leon
 $('.btn_leon_next').click(function(){
-$('.btn_leon_next').css('display','none');
-$('.btn_leon_prev').css('display','block');
-$('#leon_1').css('display','none');
-$('#leon_2').css('display','block');
+$('.btn_leon_next, #leon_1').css('display','none');
+$('.btn_leon_prev, #leon_2').css('display','block');
 });
 	
 $('.btn_leon_prev').click(function(){
-$('.btn_leon_prev').css('display','none');
-$('.btn_leon_next').css('display','block');
-$('#leon_1').css('display','block');
-$('#leon_2').css('display','none');
+$('.btn_leon_prev, #leon_2').css('display','none');
+$('.btn_leon_next, #leon_1').css('display','block');
 });	
 //----------------------------------------------------
-//----------------------------------------------- tovar-2
 $('.btn_leon_next2').click(function(){
-$('.btn_leon_next2').css('display','none');
-$('.btn_leon_prev2').css('display','block');
-$('#leon_3').css('display','none');
-$('#leon_4').css('display','block');
+$('.btn_leon_next2, #leon_3').css('display','none');
+$('.btn_leon_prev2, #leon_4').css('display','block');
 });
 	
 $('.btn_leon_prev2').click(function(){
-$('.btn_leon_prev2').css('display','none');
-$('.btn_leon_next2').css('display','block');
-$('#leon_3').css('display','block');
-$('#leon_4').css('display','none');
+$('.btn_leon_prev2, #leon_4').css('display','none');
+$('.btn_leon_next2, #leon_3').css('display','block');
 });	
-//----------------------------------------------------
+//------------------------------------------------------------------
 	
-	
-//-----------------------------------------------------------------------
-	
-	
-	
-	
-	
-	
-	
+
 	
 
 //-----------------------------------------------
 $('.btn_2').click(function(){
-	$('.modSupport').fadeIn(1000);
-	
-	$('.fon').fadeIn(1000);
-
-
+$('.modSupport, .fon').fadeIn(1000);
+});
 
 $('#cl22').click(function(){
-	$('.modSupport').fadeOut(1000);
-	
-	$('.fon').fadeOut(1000);
-});
+	$('.modSupport, .fon').fadeOut(1000);
 });
 //-----------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
 
 
 

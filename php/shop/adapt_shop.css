@@ -1,18 +1,10 @@
-/*--------------------------------------------------------------- 1270 -----------*/
-@media(max-width:1370px){
+@media(max-width:1100px){/*--------------------------------------------------------------- 1100 -----------*/
+    .hedar{
+        background-color: brown;
+    }
     .zoom_img_block, .zoom_img_block2, .zoom_img_block3, .zoom_img_block4 {
         height:550px;
-    }
-   
-}
-
-
-
-
-
-
-/*--------------------------------------------------------------- 1200 -----------*/
-@media(max-width:1230px){
+    } 
     span[name="NaMe"]{
         font-size:17px;
     }
@@ -39,11 +31,7 @@
         top:450px;
         right:75px;
     }
-}
 
-
-/*--------------------------------------------------------------- 1100 -----------*/
-@media(max-width:1100px){
     #btn_menu{
         top:15px;
         display: block;
@@ -51,16 +39,6 @@
     .btn_2 {
         display: none;
     }
-    .text_1{ /*gucci*/
-        left: 40%;
-        font-size: 35px!important;  
-        }
-        .poiskovik input{
-            left:70%;
-        }
-
-
-
     span[name="NaMe"]{
         font-size:15px;
     }
@@ -77,32 +55,27 @@
     }
     #btn_buy_2, #btn_buy_3{
         right:25px;
-    }
-
-
-
-    .menuBlock_DOP{
-        display: block;
-        left: 42%;
-    }
-    .content_7{
-        left: 10%;
-    }
-    .content_5_3 img{
-        left: 70%;
-    }
-    .content_5_1, .content_5_2{
-        display: none;
-    }
-
-   
+    }   
 }
 
 
-
+/*---------------------------------------------------------------------------- 825 -----------*/
 @media(max-width:825px){
-    .content_5_3 img{
-        width: 180px;
-        height: 160px;
-    }
+.Block_6_Footer {
+    top: 200px;
+}
+.Main_shop{
+     height: 1530px;
+}
+}
+
+
+/*----------------------------------------------------------------------------- 780 -----------*/
+@media (max-width: 780px) {
+.Block_6_Footer {
+    top: 200px;
+}
+.Main_shop{
+	height: 1530px;
+}
 }

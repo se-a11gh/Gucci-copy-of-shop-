@@ -1,102 +1,87 @@
 @media(max-width:1350px){/*--------------------------------------------------- 1350 ---------*/
-    .Main_list { left:3%; }
-    .text_1{ left:45%; }/*gucci*/
-    .sumkaBlock img{
-        left:32%;
-    }
+.text_1{ left:45%; }/*gucci*/
+.sumkaBlock img{
+    left:32%;
+}
 }
 
 /*----------------------------------------------------------------------------- 1280 ---------*/
 @media(max-width:1280px){
-    .slide_3 p{
-        font-size: 12px;
-        width:280px;
-	height:90px;
-      }
-    
-    p[name="text_musor"]{
-    	height:120px;
-
-    }    
-    p[name="text_dodiki"]{
-        width:325px;
-        height:100px;
-        left: -5%;
-    }
-    #foto_dodiki{
-        left:-5%;
-    }
-
-
-.cont_list4 {
-    left:-480px;	
+.Promo_popup{
+    left:27%;
 }
-.Slider {
-	width:100%;
-	height:745px;
-	overflow:hidden;
+
+.slide_3 p{
+    font-size: 12px;
+    width:280px;
+	height:90px;
+}
+    
+p[name="text_musor"]{
+    height:120px;
+}    
+p[name="text_dodiki"]{
+    width:325px;
+    height:100px;
+    left: -5%;
+}
+#foto_dodiki{
+    left:-5%;
 }
 
 .slide_1 p {  /*текст кнопки парфюм*/
-     border-left:4px solid red; 
     height:120px;
-    left:7%;
-    top:500px;
     font-size:30px;
 }
-    .btn_Parf2{
-        top:600px;
-        width:180px;
-        height:38px;
+.btn_Parf2{
+    top:600px;
+    width:180px;
+    height:38px;
+}
+.prev_M, .next_M {
+    top:350px;
+    font-size:50px;
+}
+.slide_2 p{
+    height:220px;
+    width:650px;
+    top:200px;
+    left:58%;
+    font-size:48px;
+} 
+  
+.video_Pokaz p {
+    left:20%;
+    height:150px;
+    font-size:49px;
+    width: 800px;
     }
-    .prev_M, .next_M {
-        top:350px;
-        font-size:50px;
-    }
-    .slide_2 p{
-         height:220px;
-         width:650px;
-        top:200px;
-        left:58%;
-        font-size:48px;
-    } 
-/*-------------------------------------*/  
-    .video_Pokaz p {
-        left:20%;
-        height:150px;
-        font-size:49px;
-        width: 800px;
-    }
- 
 }
 
 
 /*--------------------------------------------------------------------------- 1230 --------------*/
 @media(max-width:1230px){
-    #foto_musor, #foto_students{
-        width:45%;
+#foto_musor, #foto_students{
+    width:45%;
 	height:220px;
-    }
-    #foto_gagaL{
-        height:300px;
-
-    }
-    #foto_dodiki{
-        width:90%;
-    }
-    p[name="text_musor"], p[name="text_studen"]{
-    left: 47%;
-    }
-/*---------------------------------*/
-
-
-
-.Main_list { left:1%; }
-.text_1{ left:43%; }/*gucci*/
-.cont_list4 {
-    left:-430px;	
 }
-/*---------------------------------*/
+#foto_gagaL{
+    height:300px;
+}
+#foto_dodiki{
+    width:90%;
+}
+p[name="text_musor"], p[name="text_studen"]{
+    left: 47%;
+}
+
+.cont_list1 ul li, .cont_list2 ul li, .cont_list3 ul li, .cont_list4 ul li{
+    margin:30px 140%;
+}
+
+.text_1{ left:43%; }/*gucci*/
+
+
 .sumkaBlock img{
     left:29%;
 }
@@ -114,7 +99,7 @@
     margin:50px 50px;
     font-size:17px;
 }
-/*---------------------------------*/
+
 #anton{  
     width:40%;
     height:680px;
@@ -122,8 +107,7 @@
 .block_text{ 
     left:52%;
     font-size:17px;
-width: 450px;
-
+    width: 450px;
 }
 .block_text span[name="prezent"]{
     font-size:20px;
@@ -137,14 +121,12 @@ width: 450px;
 }
     
 
-
-
-
 /*--------------------------------------------------------------------- 1120 --------------*/
 @media(max-width:1120px){
+.cont_list1 ul li, .cont_list2 ul li, .cont_list3 ul li, .cont_list4 ul li{
+    margin:30px 130%;
+}
 
-
-/*--------------------------------------*/
 .video_Pokaz p {
     top: -500px;
     left:22%;
@@ -152,7 +134,7 @@ width: 450px;
     font-size:46px;
     width: 700px;
 }
-/*--------------------------------------*/
+
 .bl_sumka_anton {
     left:45%;
     height:300px;
@@ -162,35 +144,33 @@ width: 450px;
 
 /*------------------------------------------------------------------------ 1100 ---------------*/
 @media(max-width:1100px){
-    .slide_3 p{
-        font-size: 11px;
-        width:280px;
+.cont_list1 ul li, .cont_list2 ul li, .cont_list3 ul li, .cont_list4 ul li{
+    margin:30px 125%;
+}
+.slide_3 p{
+    font-size: 11px;
+    width:280px;
 	height:80px;
-    }
-    p[name="text_dodiki"]{
-        top: 120px;
-        height:110px;
-    }
-    #foto_dodiki{
-        top: -50px;
-    }
-    p[name="text_musor"]{
-        height:100px;
-    }
-    #foto_gagaL{
-        height:250px;
-    
-    }
-
-
-   .Slider {
-    top: -5%;
-    height:670px;
+}
+p[name="text_dodiki"]{
+    top: 120px;
+    height:110px;
+}
+#foto_dodiki{
+    top: -50px;
+}
+p[name="text_musor"]{
+    height:100px;
+}
+#foto_gagaL{
+    height:250px;
 }
 
-.slide_1 p {  /*текст кнопки парфюм*/
-    border-left:3px solid red; 
-    height:120px;
+.Slider {
+    top: -5%;
+    height:670px;
+}.slide_1 p { 
+   height:120px;
    left:10%;
    top:450px;
    font-size:27px;
@@ -199,12 +179,10 @@ width: 450px;
    top:550px;
    left:12%;
    width:180px;
-   height:38px;
 }
 
 .slide_2 p{
-    height:220px;
-    width:600px;
+   width:600px;
    top:250px;
    left:57%;
    font-size:43px;
@@ -222,12 +200,6 @@ width: 450px;
     font-size:47px;
 }
 
-.Main_list {
-    left:-2%;
-}
-.list_1, .list_2, .list_3, .list_4, .history{
-    font-size:16px;
-}
 .text_1{ /*gucci*/
     left:40%;
 }
@@ -238,12 +210,12 @@ width: 450px;
 .btn_safari{
     left:38%;
 }
-/*--------------------------------------*/
+
 .video_Pokaz p {
     width: 600px;
     font-size:40px;
 }
-/*--------------------------------------*/
+
 .bl_sumka_anton  {
     left:43%;
     height:300px;
@@ -253,45 +225,44 @@ width: 450px;
 
 /*---------------------------------------------------------------------------- 1030 ------------*/
 @media(max-width:1030px){
-  #foto_musor, #foto_students, #foto_gagaL{
-        top: 30px;
-    }
-    .slide_3 p{
-        top: 30px;
-        font-size: 10px;
-        width:220px;
-     }
-    p[name="text_dodiki"]{
-        top: 100px;
-    }
-    p[name="text_gaga"]{
-        height: 100px;
-    }
+#foto_musor, #foto_students, #foto_gagaL{
+    top: 30px;
+}
+.slide_3 p{
+    top: 30px;
+    font-size: 10px;
+    width:220px;
+}
+p[name="text_dodiki"]{
+    top: 100px;
+}
+p[name="text_gaga"]{
+    height: 100px;
+}
 
 
 
 .Main_list, .btn_2 {
     display: none;
 }
-    #btn_menu{
-        display: block;
-    }
-    .poiskovik input{
-        left:70%;
-    }
-/*---------------------------------*/
+#btn_menu{
+    display: block;
+}
+.poiskovik input{
+    left:70%;
+}
+
 .sumkaBlock img{
     left:26%;
 }
-/*---------------------------------*/
+
 #bl_foto_1, #bl_foto_2, #bl_foto_men, #women{
     height: 400px;
 }
 
 .Block_6_Footer{
     top: 50px;
-}
-.cont_53_logo{
+}.cont_53_logo{
 left: 78%;
 }
 }
@@ -306,32 +277,24 @@ left: 78%;
 .Slider {
     top: -10%;
     height:650px;
-}
-
-.slide_1 p {  /*текст кнопки парфюм*/
-    border-left:2px solid red; 
-    height:120px;
-    left:10%;
+}.slide_1 p {  /*текст кнопки парфюм*/
     top:400px;
     font-size:25px;
+}.btn_Parf2{
+    top:500px;
+    width:150px;
+    height:33px;
 }
-.btn_Parf2{
-       top:500px;
-       left:12%;
-       width:150px;
-       height:33px;
-    }
-    .prev_M, .next_M {
-        top:280px;
-        font-size:44px;
-    }
-    .slide_2 p{
-        height:220px;
-        width:400px;
-       top:300px;
-       left:58%;
-       font-size:30px;
-    }
+.prev_M, .next_M {
+    top:280px;
+    font-size:44px;
+}
+.slide_2 p{
+    width:400px;
+    top:300px;
+    left:58%;
+    font-size:30px;
+}
 .btn_55{
        left:64%;
        top:440px;
@@ -339,29 +302,25 @@ left: 78%;
 
 .sumkaBlock img{
     left:22%;
-}
-.btn_safari{
+}.btn_safari{
     left:33%;
-}
-.sumkaBlock span{
+}.sumkaBlock span{
     left:23%;
-}
-.krugSumka{
+}.krugSumka{
     left:65%;
     width:270px;
     height:270px;
-}
-.krugSumka p{
+}.krugSumka p{
     font-size:16px;
 }
-/*----------------------------------*/
+
 .video_Pokaz p {
     top: -400px;
     left: 20%;
     width: 570px;
     font-size:35px;
 }
-/*---------------------------------*/
+
 .bl_sumka_anton {
     top: 100px;
     left:30%;
@@ -377,20 +336,17 @@ left: 78%;
 .btnAnt{
     left: 13%;
 }
-/*---------------------------------*/
+
 .menuBlock_DOP{
     display: block;
     left: 42%;
-}
-.cont_7_adres{
+}.cont_7_adres{
     top:-130px;
     left: 10%;
-}
-.cont_53_logo{
+}.cont_53_logo{
     top:70px;
-left: 70%;
-}
-.cont_6_polit {
+    left: 70%;
+}.cont_6_polit {
     top:125px;
     left: 31%;
 }
@@ -407,7 +363,6 @@ left: 70%;
 .Block_3_Pokaz{
     height:600px;
 }
-
 .video_Pokaz video{
 	width:100%;
     height:600px;
@@ -421,11 +376,7 @@ left: 70%;
 .Block_6_Footer{
     top: 50px;
 }
-
-
 }
-
-
 
 
 /*-------------------------------------------------------------------- 890px -----------*/
@@ -436,19 +387,16 @@ left: 70%;
 }
 .poiskovik input{
     left:25%;
-    top:55px;
-    height:35px;
+    top:50px;
+    height:30px;
     width:400px;
 }
 .Slider {
     top: -13%;
 }
-
-/*---------------------------------*/
 .sumkaBlock img{
     left:20%;
 }
-/*---------------------------------*/
 .bl_sumka_anton {
     left:30%;
 }
@@ -461,6 +409,21 @@ left: 70%;
 .text_1, .slide_1 p, p[name="sumkaName"], .sumkaBlock{
      display: none;
 }
+
+.Promo_popup{
+    left:20%;
+    width:400px;
+	height:230px;
+	font-size:16px;
+	padding:17px;
+}#timer{
+	margin:40px 40px;
+	font-size:30px;
+	width:360px;
+}.Promo_popup a{
+	font-size:17px;
+}
+
 #foto_musor, #foto_students, #foto_gagaL{
     top: 20px;
     height:150px;
@@ -470,7 +433,6 @@ left: 70%;
     font-size: 8px;
     width:190px;
     height: 80px;
-
  }
 p[name="text_dodiki"]{
     top: 100px;
@@ -511,40 +473,33 @@ p[name="text_gaga"]{
 }
 .slide_2 p{
     width:350px;
-   left:58%;
    font-size:25px;
 }
 .btn_55{
-   left:64%;
    top:410px;
    width:150px;
    height:34px;	
    font-size:14px;
 }
 .poiskovik input{
-    left:25%;
     top:25px;
     width:46%;
 }
 
-/*--------------------------*/
-#foto_safari_DOP{
-    display: block;
-}
-.safari_text{
+#foto_safari_DOP, .safari_text{
     display: block;
 }
 .safari_text img{
     position: relative;
     top: -10px;
 }
-/*---------------------------------*/
+
 .video_Pokaz p {
     top:-300px;
     width: 500px;
     font-size:30px;
 }
-/*----------------------------------*/
+
 .bl_sumka_anton  {
    top: 70px;
 }
@@ -594,15 +549,11 @@ p[name="text_gaga"]{
 }
 
 
-
 /*------------------------------------------------------------------ 780px --------------*/
 @media(max-width:780px){
-
-/*---------------------------------*/
 .video_Pokaz p {
 left: 20%;
 }
-/*---------------------------------*/
 
 .blokFoto_DOP{
 	display: flex;
@@ -618,16 +569,14 @@ left: 20%;
 .blokFoto_1, .blokFoto_2{
     display: none;
 }
-
-
-
 }
-
 
 
 /*------------------------------------------------------------------ 750px --------------*/
 @media(max-width:750px){
-
+.Promo_popup{
+    left:18%;
+}
 .Slider {
     top: -18%;
 }
@@ -637,13 +586,11 @@ left: 20%;
    font-size:23px;
 }
 
-/*----------------------------------*/
 .safari_text{
 	left:12%;
 	top:-380px;
 	font-size: 35px;
     width: 550px;
-
 }
 .btn_safari_DOP{
 	left:35%;
@@ -651,26 +598,13 @@ left: 20%;
 	font-size:18px;
 	width:180px;
 }
-/*---------------------------------*/
+
 .text_sum_Anton{
     font-size: 26px;
     width: 340px;
-
 }
 .text_sum_Anton p{
     font-size: 20px;
-}
-/*---------------------------------*/
-.menuBlock_DOP{
-    left: 38%;
-	font-size: 17px;
-}
-.cont_53_logo img{ 
-    width: 190px;
-    height: 180px;
-}
-.cont_7_adres{
-	font-size: 17px;
 }
 
 .Main{
@@ -683,15 +617,24 @@ left: 20%;
 .cont_6_polit {
     left: 24%;
 }
+.menuBlock_DOP{
+    left: 38%;
+	font-size: 17px;
 }
-
-
-
-
+.cont_53_logo img{ 
+    width: 190px;
+    height: 180px;
+}
+.cont_7_adres{
+	font-size: 17px;
+}
+}
 
 /*-------------------------------------------------------------------- 665px --------*/
 @media(max-width:665px){
-
+.Promo_popup{
+    left:14%;
+}
 .Slider {
    top: -21%;
 }
@@ -708,17 +651,13 @@ left: 20%;
 }
 
 
-
-/*----------------------------------*/
 .safari_text{
 	left:15%;
     width: 500px;
-
 }
 .btn_safari_DOP{
 	left:35%;
 }
-/*----------------------------------*/
 
 .text_sum_Anton{
     left: 38%;
@@ -733,7 +672,6 @@ left: 20%;
  }
  .bl_sumka_anton img {
     width: 77%;
-    height: 200px;
 }
 .btnAnt{
     top: 30px;
@@ -742,16 +680,8 @@ left: 20%;
 	height:35px;
 }
 /*----------------------------------*/
-.Block_4_Anton{
-	height: 500px;
-}
-/*----------------------------------*/
-.video_Pokaz p {
-    top: -220px;
-    left: 15%;
-    width: 450px;
-    height: 80px;
-    font-size:25px;
+.Main{
+	height: 2400px;
 }
 .Block_3_Pokaz{
     height:350px;
@@ -760,16 +690,20 @@ left: 20%;
 	width:100%;
     height:350px;
 }
-.Main{
-	height: 2400px;
+.video_Pokaz p {
+    top: -220px;
+    left: 15%;
+    width: 450px;
+    height: 80px;
+    font-size:25px;
 }
-
+.Block_4_Anton{
+	height: 500px;
+}
 .Block_6_Footer{
     top: 830px;
 }
-
 }
-
 
 
 /*-------------------------------------------------------------------- 665px --------*/
@@ -789,60 +723,50 @@ left: 20%;
     from{  top:550px;  }
     to{ top:600px;  }
 }
-
-
 .safari_text{
 	left:10%;
 }
-
-
 .Main{
 	height: 3100px;
 }
 .Block_1_Header{
 	background-image: linear-gradient(180deg, #D3CFCF, #D3CFCF);
-
 }
 .Block_4_Anton{
 	height: 380px;
-
 }
 .Block_6_Footer{
     top: 250px;
-
 }
 }
 
 
 /*------------------------------------------------------------------------ 600px -------*/
 @media(max-width:600px){ 
+.Promo_popup{
+    left:10%;
+}
 .btn_safari_DOP{
 	left:33%;
 }
-
 .Slider_List_DOP{
     left:12%;
 }
 
-/*----------------------------------*/
 .video_Pokaz p {
     left: 20%;
     width: 300px;
-    height: 80px;
     font-size:20px;
 }
 
-/*----------------------------------*/
 .menuBlock_DOP{
     left: 32%;
-	font-size: 17px;
 }
 .cont_53_logo img{ 
     width: 140px;
     height: 130px;
 }
 .cont_7_adres{
-	font-size: 17px;
 	left:5%;
 }
 .cont_6_polit {
@@ -850,14 +774,15 @@ left: 20%;
 }
 }
 
-
 @media(max-width:530px){/*--------------------------------- 530px ----*/
-
-    .Slider_List_DOP{
-        left:9%;
-    }
-    .bl_sumka_anton  {
-left: 25%;
+.Promo_popup{
+    left:6%;
+}
+.Slider_List_DOP{
+    left:9%;
+}
+.bl_sumka_anton  {
+    left: 25%;
 }
 
 .safari_text{
@@ -880,6 +805,3 @@ left: 25%;
 }
 
 }
-
-
-

@@ -10,10 +10,10 @@
 }
 
 
-.Main{
-	height: 3000px;
+.Main_his{
+	height: 2850px;
 }
-.Block_1_Header{
+.Block_1_Header_his{
     width: 100%;
 	height: 180px;
 }
@@ -126,28 +126,36 @@
 	font-weight:bold;
 }
 .text_3_1{
-	top:1150px;
+	top:1200px;
 	left:43%;
+}  #gagaHis{
+	position: relative;
+	top: -100px;
+	height:700px;
 }
+
 p[name="content_1_text"]{
 	position:relative;
 	left:53%;
-	top:-200px;
+	top:-300px;
 	border-left:5px solid red;
-	width:700px;
-	height:150px;
+	width:43%;
+	height:130px;
 	padding:10px;
 	font-size:30px;
 	color:white;
 }
-
+#markHis {
+    position: relative;
+    top: -200px;
+}
 
 /*------------------- Блок при адаптиве -----------------------*/
 #markHis2{
 	display: none;
 	position:relative;
-	left:35%;
-	top:-100px;
+	left:37%;
+	top:590px;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
@@ -155,20 +163,16 @@ p[name="content_1_text"]{
 .markHis2_text p {
 	display: none;
 	position:relative;
-	left:15%;
-	top:-80px;
-	width: 500px;
+	left:10%;
+	top:600px;
+	width: 80%;
 	height: 120px;
 	border-bottom:5px solid green;
 }
 
 
-
-
-
-
 .Block_6_Footer{
-	top: 150px;
+	top:0px;
 }
 
 

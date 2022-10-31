@@ -1,17 +1,13 @@
-@import 'css/support.css';
 @import 'css/hedar.css';
 @import 'css/sum_safari.css';
 @import 'css/anton.css';
 @import 'css/slideMain.css'; 
 @import 'css/footer.css';
 
-*{
-	margin:0;
-	padding:0;
-	text-decoration:none;
-	list-style:none;
-	/*border: 1px solid red;*/
+*{ 
+	margin:0;  padding:0;  text-decoration:none; list-style:none;
 }
+
 @font-face{
 	font-family:"Lugatype";
 	src:url('fonts/Lugatype.otf');
@@ -36,72 +32,7 @@
 	height: 4400px;
 }
 
-
-
-
-
-
-
-
-.Promo_fon{/*------------ Акция PopUp --------------*/
-	display:none;
-	position:fixed;
-	left:0px;
-	top:0px;
-	width:100%;
-	height:850px;
-	background-color:black;
-	opacity:0.8;
-	z-index:49;
-}
-.Promo_popup{
-	display:none;
-	position:fixed;
-	left:500px;
-	top:200px;
-	width:450px;
-	height:250px;
-	background-color:white;
-	border-radius:10px;
-	z-index:50;
-	padding:20px;
-	font-size:17px;
-	border:1px solid;
-}
-.Promo_popup p{
-	text-align:center;
-	font-size:25px;
-	font-weight:bold;
-}
-#timer{
-	margin:50px 40px;
-	font-size:35px;
-	font-weight:bold;
-	color:#DC143C;
-	width:500px;
-}
-.Promo_popup a{
-	font-size:20px;
-}
-
-
-
-#strela{
-	position:relative;
-   left:50%;
-   top:-150px;
-   z-index:10;
-   animation-name:strelaDown;
-   animation-duration:2s;
-   animation-iteration-count:1121;
-}@keyframes strelaDown {
-	   from{  top:-150px;  }
-	   to{ top:0px;  }
-}
-
-
-/*-------------------------------------------------------------------------------------------------*/
-
+/*------------------------------------------------------------------------ (1) ------*/
 .Block_1_Header{
 	width: 100%;
 	height: 760px;
@@ -109,7 +40,7 @@
 }
 
 
-/*-------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------- (2) ---*/
 .Block_2_Safari{
 	position:relative;
 	width: 100%;
@@ -117,7 +48,7 @@
 	background-image:linear-gradient(35deg,white,#D3D3D3);
 }
 
-/*-------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------- (3) ----*/
 .Block_3_Pokaz{
 	position:relative;
 	width: 100%;
@@ -144,7 +75,7 @@
 }
 
 
-/*-------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------ (4) ---*/
 .Block_4_Anton{
 	position:relative;
 	width: 100%;
@@ -153,7 +84,7 @@
 }
 
 
-/*-------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------- (5) ---*/
 .Block_5_FotoLink{
 	position: relative;
 	width: 100%;
@@ -169,3 +100,136 @@
 	z-index:1;
 }
 
+
+/*-------------------------------------------------------- Акция PopUp ------*/
+.Promo_fon{
+	display:none;
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:850px;
+	background-color:black;
+	opacity:0.8;
+	z-index:149;
+}
+.Promo_popup{
+	display:none;
+	position:fixed;
+	left:35%;
+	top:200px;
+	width:450px;
+	height:250px;
+	background-color:white;
+	border-radius:10px;
+	z-index:150;
+	padding:20px;
+	font-size:17px;
+	border:1px solid;
+}
+.Promo_popup p{
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+}
+#timer{
+	margin:50px 40px;
+	font-size:35px;
+	font-weight:bold;
+	color:#DC143C;
+	width:500px;
+}
+.Promo_popup a{
+	font-size:20px;
+}
+
+
+/*----------------------------------------------------------- strela -----*/
+#strela{
+	position:relative;
+   left:50%;
+   top:-150px;
+   z-index:10;
+   animation-name:strelaDown;
+   animation-duration:2s;
+   animation-iteration-count:1121;
+}@keyframes strelaDown {
+	   from{  top:-150px;  }
+	   to{ top:0px;  }
+}
+
+
+
+
+/*------------------------------------------------------ support clients --------*/
+.fon{
+	display:none;
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:8000px;
+	z-index:55;
+	background-color:black;
+	opacity:0.8;
+}
+.btn_2 {  
+	position:absolute;
+	left:10px;
+	top:10px;
+	border:none;
+	font-size:14px;
+	z-index:14;
+	color:white;
+	cursor: pointer;
+}
+#cl22, #cl{
+	position:absolute;
+	right:20px;
+	top:20px;
+	z-index:114;
+	cursor: pointer;
+}
+.modSupport p[name="about"]{
+	position:absolute;
+	left:270px;
+	top:10px;
+	width:500px;
+	font-size:25px;
+	font-weight:bold;
+}
+.modSupport{
+	display:none;
+	position:absolute;
+	left:20%;
+	top:100px;
+	width:850px;
+	height:450px;
+	z-index:56;
+	background: rgba(192,192,192,0.7);
+	border-radius:5px;
+	padding:50px;
+}
+#bdj{
+	position:absolute;
+	left:550px;
+	top:65px;
+	z-index:15;	
+	border:1px solid #006400;
+}
+.modSupport form{
+	position:absolute;
+	left:20px;
+	top:100px;
+	z-index:15;
+}
+textarea{
+	width:400px;
+	height:150px;
+}
+
+#btn_supp_send{
+	position: relative;
+	top: 50px;
+	left: 50px;
+}

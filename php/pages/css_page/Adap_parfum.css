@@ -74,17 +74,7 @@ p[name='opis_duxi_block_3']{
         top:350px;
 	left:42%;
     }
-    .poiskovik input{
-        left:34%;
-        top:36px;
-        height:25px;
-        width:400px;
-    }
-    .text_1{ /*gucci*/
-        font-size: 30px;
-        top: 5px;
-        left:50%;
-    }
+ 
 }
     
 
@@ -92,6 +82,18 @@ p[name='opis_duxi_block_3']{
 
 /*----------------------------------------------------------------------------------- 950 -----------------------*/
 @media (max-width: 950px) { 
+    .poiskovik input{
+        left:25%;
+        top:55px;
+        height:35px;
+        width:45%;
+    }
+    .text_1{ /*gucci*/
+        font-size: 35px;
+        top: 15px;
+        left:40%;
+    }
+
 .duxi_block_1 p{
     left:18%;
     }
@@ -133,17 +135,14 @@ p[name='opis_duxi_block_3']{
         width:250px;
     }
 
-    .poiskovik input{
-        width:300px;
-    }
     .duxi_block_1 p{
         left:15%;
     }
 
     p[name='opis_duxi_block_3']{
-        left: 12%;
+        left: 18%;
         font-size:18px;
-        width:600px;
+        width:550px;
         height:60px;
     }
 }
@@ -152,24 +151,38 @@ p[name='opis_duxi_block_3']{
 
 /*----------------------------------------------------------------------------------- 800 -----------------------*/
 @media (max-width: 800px) { 
-.poiskovik input{
-     width:300px;
-}
+    .poiskovik input{
+        top:25px;
+    }
 .duxi_block_1 p{
     left:10%;
     width:600px;
     height:120px;
     font-size:30px;  
 }
+
 }
 
 
 
 
+@media (max-width: 780px) { 
+p[name='opis_duxi_block_3']{
+    left: 11%;
+}
+.Block_6_Footer{
+    top:-100px;
+}
+}
+
+
 /*---------------------------------------------------------------------------------- 700 ------------------------*/
 @media (max-width: 700px) { 
-.poiskovik input{
-    width:300px;
+p[name='opis_duxi_block_3']{
+    left: 13%;
+    font-size:16px;
+    width:480px;
+    height:60px;
 }
 .duxi_block_1 p{
     width:500px;
@@ -179,6 +192,27 @@ p[name='opis_duxi_block_3']{
 }
 
 
+@media (max-width: 650px) { 
+p[name='opis_duxi_block_3']{
+    left: 7%;
+}
+.duxi_block_1 p{
+    left: 18%;
+    width:400px;
+    height:100px;
+    font-size:20px;     
+}
+}
 
+
+@media (max-width: 590px) {   
+  p[name='opis_duxi_block_3']{
+      left: 5%;
+  }
+  .duxi_block_1 p{
+      left: 15%;
+  }
+  
+  }
 
    
